@@ -1,0 +1,3405 @@
+From: <Saved by Mozilla 5.0 (Windows)>
+Subject: Demo-EFCore/DemoScript.md at master =?utf-8?Q?=C2=B7?=
+ rowanmiller/Demo-EFCore
+Date: Mon, 09 May 2016 22:17:44 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_D5001CCE.6881586A"
+X-MAF-Information: Produced By MAF V4.0.0
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://github.com/rowanmiller/Demo-EFCore/blob/master/DemoScript.md
+
+<!DOCTYPE html><html class=3D" is-copy-enabled" lang=3D"en"><head prefix=3D=
+"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/ob=
+ject# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#=
+">
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8">
+    <meta charset=3D"utf-8">
+
+    <link crossorigin=3D"anonymous" href=3D"urn:snapshot-A7164225:https://a=
+ssets-cdn.github.com/assets/frameworks-73b6e7254b4ff47628bc2700deeaccfe68ae=
+11f3b55062485e2e586d8a58246a.css" integrity=3D"sha256-c7bnJUtP9HYovCcA3urM/=
+miuEfO1UGJIXi5YbYpYJGo=3D" media=3D"all" rel=3D"stylesheet">
+    <link crossorigin=3D"anonymous" href=3D"urn:snapshot-38CAA8BB:https://a=
+ssets-cdn.github.com/assets/github-ff4e1442a7f097b1d8db6f9bc10af12ca6545a84=
+d7385542b8b6f843a9d6558e.css" integrity=3D"sha256-/04UQqfwl7HY22+bwQrxLKZUW=
+oTXOFVCuLb4Q6nWVY4=3D" media=3D"all" rel=3D"stylesheet">
+   =20
+   =20
+   =20
+   =20
+
+    <link as=3D"script" href=3D"urn:snapshot-38F603D9:https://assets-cdn.gi=
+thub.com/assets/frameworks-5cb6f1c6f9211bfeed3bfc7596d8a1b3c5f4bb841d531864=
+5a0aafff48b5b33d.js" rel=3D"preload">
+   =20
+    <link as=3D"script" href=3D"urn:snapshot-BDCF6CBF:https://assets-cdn.gi=
+thub.com/assets/github-95420f7dee094ef84be94e3d806ad5b523740005c2a326fa92e1=
+1935f0f74c4e.js" rel=3D"preload">
+
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta http-equiv=3D"Content-Language" content=3D"en">
+    <meta name=3D"viewport" content=3D"width=3D1020">
+   =20
+   =20
+    <title>Demo-EFCore/DemoScript.md at master =C2=B7 rowanmiller/Demo-EFCo=
+re</title>
+    <link rel=3D"search" type=3D"application/opensearchdescription+xml" hre=
+f=3D"https://github.com/opensearch.xml" title=3D"GitHub">
+    <link rel=3D"fluid-icon" href=3D"https://github.com/fluidicon.png" titl=
+e=3D"GitHub">
+    <link rel=3D"apple-touch-icon" href=3D"urn:not-loaded:https://github.co=
+m/apple-touch-icon.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"57x57" href=3D"urn:not-loaded:h=
+ttps://github.com/apple-touch-icon-57x57.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"60x60" href=3D"urn:not-loaded:h=
+ttps://github.com/apple-touch-icon-60x60.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"urn:not-loaded:h=
+ttps://github.com/apple-touch-icon-72x72.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"76x76" href=3D"urn:not-loaded:h=
+ttps://github.com/apple-touch-icon-76x76.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"114x114" href=3D"urn:not-loaded=
+:https://github.com/apple-touch-icon-114x114.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"120x120" href=3D"urn:not-loaded=
+:https://github.com/apple-touch-icon-120x120.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"144x144" href=3D"urn:not-loaded=
+:https://github.com/apple-touch-icon-144x144.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"152x152" href=3D"urn:not-loaded=
+:https://github.com/apple-touch-icon-152x152.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"urn:not-loaded=
+:https://github.com/apple-touch-icon-180x180.png">
+    <meta property=3D"fb:app_id" content=3D"1401488693436528">
+
+      <meta content=3D"https://avatars1.githubusercontent.com/u/4741851?v=
+=3D3&amp;s=3D400" name=3D"twitter:image:src"><meta content=3D"@github" name=
+=3D"twitter:site"><meta content=3D"summary" name=3D"twitter:card"><meta con=
+tent=3D"rowanmiller/Demo-EFCore" name=3D"twitter:title"><meta content=3D"Co=
+ntribute to Demo-EFCore development by creating an account on GitHub." name=
+=3D"twitter:description">
+      <meta content=3D"https://avatars1.githubusercontent.com/u/4741851?v=
+=3D3&amp;s=3D400" property=3D"og:image"><meta content=3D"GitHub" property=
+=3D"og:site_name"><meta content=3D"object" property=3D"og:type"><meta conte=
+nt=3D"rowanmiller/Demo-EFCore" property=3D"og:title"><meta content=3D"https=
+://github.com/rowanmiller/Demo-EFCore" property=3D"og:url"><meta content=3D=
+"Contribute to Demo-EFCore development by creating an account on GitHub."=
+ property=3D"og:description">
+      <meta name=3D"browser-stats-url" content=3D"https://api.github.com/_p=
+rivate/browser/stats">
+    <meta name=3D"browser-errors-url" content=3D"https://api.github.com/_pr=
+ivate/browser/errors">
+    <link rel=3D"assets" href=3D"https://assets-cdn.github.com/">
+    <link rel=3D"web-socket" href=3D"wss://live.github.com/_sockets/MTkyOTg=
+zOTpjMDJjZTJhMDEzMDIwNDUwOGQwYjZmMWVjZWRhNGI3Yzo1MGFiNTlhMjAwYTE1ZTA5MTc4MD=
+cxZDFjZGFjOTg4YzUyMWU1MjA0NmJkMzBmNmY2MDQ5YzQ4MmFmYjZhOGVk--5f1dae5b09b2ca9=
+614bc16ef27588dd3b9189abd">
+    <meta name=3D"pjax-timeout" content=3D"1000">
+    <link rel=3D"sudo-modal" href=3D"https://github.com/sessions/sudo_modal=
+">
+
+    <meta name=3D"msapplication-TileImage" content=3D"/windows-tile.png">
+    <meta name=3D"msapplication-TileColor" content=3D"#ffffff">
+    <meta name=3D"selected-link" value=3D"repo_source" data-pjax-transient=
+=3D"">
+
+    <meta name=3D"google-site-verification" content=3D"KT5gs8h0wvaagLKAVWq8=
+bbeNwnZZK1r1XQysX3xurLU">
+<meta name=3D"google-site-verification" content=3D"ZzhVyEFwb7w3e0-uOTltm8Js=
+ck2F5StVihD0exw2fsA">
+    <meta name=3D"google-analytics" content=3D"UA-3769691-2">
+
+<meta content=3D"collector.githubapp.com" name=3D"octolytics-host"><meta co=
+ntent=3D"github" name=3D"octolytics-app-id"><meta content=3D"53097F74:90F1:=
+4051545:5730EB8C" name=3D"octolytics-dimension-request_id"><meta content=3D=
+"1929839" name=3D"octolytics-actor-id"><meta content=3D"tkopacz" name=3D"oc=
+tolytics-actor-login"><meta content=3D"c8dd40e75873f8d15e6c3e071ab845f9d3d0=
+b2df3572450953a09ff3eb2a381a" name=3D"octolytics-actor-hash">
+<meta content=3D"/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-=
+transient=3D"true" name=3D"analytics-location">
+
+
+
+  <meta class=3D"js-ga-set" name=3D"dimension1" content=3D"Logged In">
+
+
+
+        <meta name=3D"hostname" content=3D"github.com">
+    <meta name=3D"user-login" content=3D"tkopacz">
+
+        <meta name=3D"expected-hostname" content=3D"github.com">
+      <meta name=3D"js-proxy-site-detection-payload" content=3D"NzQ3YTIxNWY=
+1YmQ4NDFkN2Y0YTgyODkzOGZlODNkYTQ1NGFiZDVkNDc1NGU0ZDBkMDk0MTQ4NzQ2YzAyM2NmOH=
+x7InJlbW90ZV9hZGRyZXNzIjoiODMuOS4xMjcuMTE2IiwicmVxdWVzdF9pZCI6IjUzMDk3Rjc0O=
+jkwRjE6NDA1MTU0NTo1NzMwRUI4QyIsInRpbWVzdGFtcCI6MTQ2MjgyMzgyMH0=3D">
+
+
+      <link rel=3D"mask-icon" href=3D"https://assets-cdn.github.com/pinned-=
+octocat.svg" color=3D"#4078c0">
+      <link rel=3D"icon" type=3D"image/x-icon" href=3D"https://assets-cdn.g=
+ithub.com/favicon.ico">
+
+    <meta content=3D"1283baa33768e0ea6540d4e779fda6f6002cd7d1" name=3D"form=
+-nonce">
+
+    <meta http-equiv=3D"x-pjax-version" content=3D"c372f8bdef825e3b42cbaa1b=
+36bf6b82">
+   =20
+
+     =20
+  <meta name=3D"description" content=3D"Contribute to Demo-EFCore developme=
+nt by creating an account on GitHub.">
+  <meta name=3D"go-import" content=3D"github.com/rowanmiller/Demo-EFCore gi=
+t https://github.com/rowanmiller/Demo-EFCore.git">
+
+  <meta content=3D"4741851" name=3D"octolytics-dimension-user_id"><meta con=
+tent=3D"rowanmiller" name=3D"octolytics-dimension-user_login"><meta content=
+=3D"51020260" name=3D"octolytics-dimension-repository_id"><meta content=3D"=
+rowanmiller/Demo-EFCore" name=3D"octolytics-dimension-repository_nwo"><meta=
+ content=3D"true" name=3D"octolytics-dimension-repository_public"><meta con=
+tent=3D"false" name=3D"octolytics-dimension-repository_is_fork"><meta conte=
+nt=3D"51020260" name=3D"octolytics-dimension-repository_network_root_id"><m=
+eta content=3D"rowanmiller/Demo-EFCore" name=3D"octolytics-dimension-reposi=
+tory_network_root_nwo">
+  <link href=3D"https://github.com/rowanmiller/Demo-EFCore/commits/master.a=
+tom" rel=3D"alternate" title=3D"Recent Commits to Demo-EFCore:master" type=
+=3D"application/atom+xml">
+
+
+      <link rel=3D"canonical" href=3D"#" data-pjax-transient=3D"">
+  </head>
+
+
+  <body class=3D"logged-in   env-production windows vis-public page-blob">
+    <div id=3D"js-pjax-loader-bar" class=3D"pjax-loader-bar"></div>
+    <a href=3D"#start-of-content" tabindex=3D"1" class=3D"accessibility-aid=
+ js-skip-to-content">Skip to content</a>
+
+   =20
+   =20
+   =20
+
+
+
+        <div class=3D"header header-logged-in true" role=3D"banner">
+  <div class=3D"container clearfix">
+
+    <a class=3D"header-logo-invertocat" href=3D"https://github.com/" data-h=
+otkey=3D"g d" aria-label=3D"Homepage" data-ga-click=3D"Header, go to dashbo=
+ard, icon:logo">
+  <svg aria-hidden=3D"true" class=3D"octicon octicon-mark-github" height=3D=
+"28" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"28"><path d=3D"M8 0C3.5=
+8 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.=
+19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.=
+82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.=
+21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.6=
+4-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.2=
+1 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2=
+-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15=
+ 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-=
+0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42=
+ 0 8 0z"></path></svg>
+</a>
+
+
+        <div class=3D"header-search scoped-search site-scoped-search js-sit=
+e-search" role=3D"search">
+  <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" action=3D"=
+https://github.com/rowanmiller/Demo-EFCore/search" class=3D"js-site-search-=
+form" data-scoped-search-url=3D"/rowanmiller/Demo-EFCore/search" data-unsco=
+ped-search-url=3D"/search" method=3D"get"><div style=3D"margin:0;padding:0;=
+display:inline"><input name=3D"utf8" value=3D"=E2=9C=93" type=3D"hidden"></=
+div>
+    <label class=3D"form-control header-search-wrapper js-chromeless-input-=
+container">
+      <div class=3D"header-search-scope">This repository</div>
+      <input class=3D"form-control header-search-input js-site-search-focus=
+ js-site-search-field is-clearable" data-hotkey=3D"s" name=3D"q" placeholde=
+r=3D"Search" aria-label=3D"Search this repository" data-unscoped-placeholde=
+r=3D"Search GitHub" data-scoped-placeholder=3D"Search" tabindex=3D"1" autoc=
+apitalize=3D"off" type=3D"text">
+    </label>
+</form></div>
+
+
+      <ul class=3D"header-nav left" role=3D"navigation">
+        <li class=3D"header-nav-item">
+          <a href=3D"https://github.com/pulls" class=3D"js-selected-navigat=
+ion-item header-nav-link" data-ga-click=3D"Header, click, Nav menu - item:p=
+ulls context:user" data-hotkey=3D"g p" data-selected-links=3D"/pulls /pulls=
+/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class=3D"header-nav-item">
+          <a href=3D"https://github.com/issues" class=3D"js-selected-naviga=
+tion-item header-nav-link" data-ga-click=3D"Header, click, Nav menu - item:=
+issues context:user" data-hotkey=3D"g i" data-selected-links=3D"/issues /is=
+sues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class=3D"header-nav-item">
+            <a class=3D"header-nav-link" href=3D"https://gist.github.com/"=
+ data-ga-click=3D"Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+   =20
+<ul class=3D"header-nav user-nav right" id=3D"user-links">
+  <li class=3D"header-nav-item">
+   =20
+    <a href=3D"https://github.com/notifications" aria-label=3D"You have unr=
+ead notifications" class=3D"header-nav-link notification-indicator tooltipp=
+ed tooltipped-s js-socket-channel js-notification-indicator" data-channel=
+=3D"notification-changed-v2:1929839" data-ga-click=3D"Header, go to notific=
+ations, icon:unread" data-hotkey=3D"g n">
+        <span class=3D"mail-status unread"></span>
+        <svg aria-hidden=3D"true" class=3D"octicon octicon-bell" height=3D"=
+16" version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M14 12v1H=
+0v-1l0.73-0.58c0.77-0.77 0.81-2.55 1.19-4.42 0.77-3.77 4.08-5 4.08-5 0-0.55=
+ 0.45-1 1-1s1 0.45 1 1c0 0 3.39 1.23 4.16 5 0.38 1.88 0.42 3.66 1.19 4.42l0=
+.66 0.58z m-7 4c1.11 0 2-0.89 2-2H5c0 1.11 0.89 2 2 2z"></path></svg>
+</a>
+  </li>
+
+  <li class=3D"header-nav-item dropdown js-menu-container">
+    <a class=3D"header-nav-link tooltipped tooltipped-s js-menu-target" hre=
+f=3D"https://github.com/new" aria-label=3D"Create new=E2=80=A6" data-ga-cli=
+ck=3D"Header, create new, icon:add">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-plus left" height=
+=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16" width=3D"12"><path d=3D"M12=
+ 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg>
+      <span class=3D"dropdown-caret"></span>
+    </a>
+
+    <div class=3D"dropdown-menu-content js-menu-content">
+      <ul class=3D"dropdown-menu dropdown-menu-sw">
+       =20
+<a class=3D"dropdown-item" href=3D"https://github.com/new" data-ga-click=3D=
+"Header, create new repository">
+  New repository
+</a>
+
+  <a class=3D"dropdown-item" href=3D"https://github.com/new/import" data-ga=
+-click=3D"Header, import a repository">
+    Import repository
+  </a>
+
+
+  <a class=3D"dropdown-item" href=3D"https://github.com/organizations/new"=
+ data-ga-click=3D"Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class=3D"dropdown-divider"></div>
+  <div class=3D"dropdown-header">
+    <span title=3D"rowanmiller/Demo-EFCore">This repository</span>
+  </div>
+    <a class=3D"dropdown-item" href=3D"https://github.com/rowanmiller/Demo-=
+EFCore/issues/new" data-ga-click=3D"Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class=3D"header-nav-item dropdown js-menu-container">
+    <a class=3D"header-nav-link name tooltipped tooltipped-sw js-menu-targe=
+t" href=3D"https://github.com/tkopacz" aria-label=3D"View profile and more"=
+ data-ga-click=3D"Header, show menu, icon:avatar">
+      <img alt=3D"@tkopacz" class=3D"avatar" src=3D"https://avatars1.github=
+usercontent.com/u/1929839?v=3D3&amp;s=3D40" height=3D"20" width=3D"20">
+      <span class=3D"dropdown-caret"></span>
+    </a>
+
+    <div class=3D"dropdown-menu-content js-menu-content">
+      <div class=3D"dropdown-menu  dropdown-menu-sw">
+        <div class=3D" dropdown-header header-nav-current-user css-truncate=
+">
+            Signed in as <strong class=3D"css-truncate-target">tkopacz</str=
+ong>
+
+        </div>
+
+
+        <div class=3D"dropdown-divider"></div>
+
+          <a class=3D"dropdown-item" href=3D"https://github.com/tkopacz" da=
+ta-ga-click=3D"Header, go to profile, text:your profile">
+            Your profile
+          </a>
+        <a class=3D"dropdown-item" href=3D"https://github.com/stars" data-g=
+a-click=3D"Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+          <a class=3D"dropdown-item" href=3D"https://github.com/explore" da=
+ta-ga-click=3D"Header, go to explore, text:explore">
+            Explore
+          </a>
+          <a class=3D"dropdown-item" href=3D"https://github.com/integration=
+s" data-ga-click=3D"Header, go to integrations, text:integrations">
+            Integrations
+          </a>
+        <a class=3D"dropdown-item" href=3D"https://help.github.com/" data-g=
+a-click=3D"Header, go to help, text:help">
+          Help
+        </a>
+
+
+          <div class=3D"dropdown-divider"></div>
+
+          <a class=3D"dropdown-item" href=3D"https://github.com/settings/pr=
+ofile" data-ga-click=3D"Header, go to settings, icon:settings">
+            Settings
+          </a>
+
+          <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" ac=
+tion=3D"https://github.com/logout" class=3D"logout-form" data-form-nonce=3D=
+"1283baa33768e0ea6540d4e779fda6f6002cd7d1" method=3D"post"><div style=3D"ma=
+rgin:0;padding:0;display:inline"><input name=3D"utf8" value=3D"=E2=9C=93"=
+ type=3D"hidden"><input name=3D"authenticity_token" value=3D"haQswKGjffgdCA=
+lsnJoL5tYvxsHUBwUwk8PE/t1CimRym5J1RX5geHzc4u4KwuFkKBEKPmaMNLSOzZOkPuobiQ=3D=
+=3D" type=3D"hidden"></div>
+            <button class=3D"dropdown-item dropdown-signout" data-ga-click=
+=3D"Header, sign out, icon:logout">
+              Sign out
+            </button>
+</form>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+   =20
+  </div>
+</div>
+
+
+     =20
+
+
+    <div id=3D"start-of-content" class=3D"accessibility-aid"></div>
+
+      <div id=3D"js-flash-container">
+</div>
+
+
+    <div role=3D"main" class=3D"main-content">
+        <div itemscope=3D"" itemtype=3D"http://schema.org/SoftwareSourceCod=
+e">
+    <div id=3D"js-repo-pjax-container" data-pjax-container=3D"">
+     =20
+<div class=3D"pagehead repohead instapaper_ignore readability-menu experime=
+nt-repo-nav">
+  <div class=3D"container repohead-details-container">
+
+   =20
+
+<ul class=3D"pagehead-actions">
+
+  <li>
+        <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" acti=
+on=3D"https://github.com/notifications/subscribe" class=3D"js-social-contai=
+ner" data-autosubmit=3D"true" data-form-nonce=3D"1283baa33768e0ea6540d4e779=
+fda6f6002cd7d1" data-remote=3D"true" method=3D"post"><div style=3D"margin:0=
+;padding:0;display:inline"><input name=3D"utf8" value=3D"=E2=9C=93" type=3D=
+"hidden"><input name=3D"authenticity_token" value=3D"wIEesCXFyj1jKYEHolgh7Y=
+p6cD55mD8wsH0kE8WROatFl57R4g9Gz+0rofdmxCpA5l6c1aze2UEJDEIZNaOouA=3D=3D" typ=
+e=3D"hidden"></div>      <input class=3D"form-control" id=3D"repository_id"=
+ name=3D"repository_id" value=3D"51020260" type=3D"hidden">
+
+        <div class=3D"select-menu js-menu-container js-select-menu">
+          <a href=3D"https://github.com/rowanmiller/Demo-EFCore/subscriptio=
+n" class=3D"btn btn-sm btn-with-count select-menu-button js-menu-target" ro=
+le=3D"button" tabindex=3D"0" aria-haspopup=3D"true" data-ga-click=3D"Reposi=
+tory, click Watch settings, action:blob#show">
+            <span class=3D"js-select-button">
+              <svg aria-hidden=3D"true" class=3D"octicon octicon-eye" heigh=
+t=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M8.0=
+6 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.06 10c-2.2=
+ 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z m2-4c0 1.=
+11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z"></path></svg>
+              Watch
+            </span>
+          </a>
+          <a class=3D"social-count js-social-count" href=3D"https://github.=
+com/rowanmiller/Demo-EFCore/watchers">
+            6
+          </a>
+
+        <div class=3D"select-menu-modal-holder">
+          <div class=3D"select-menu-modal subscription-menu-modal js-menu-c=
+ontent" aria-hidden=3D"true">
+            <div class=3D"select-menu-header js-navigation-enable" tabindex=
+=3D"-1">
+              <svg aria-label=3D"Close" class=3D"octicon octicon-x js-menu-=
+close" height=3D"16" role=3D"img" version=3D"1.1" viewBox=3D"0 0 12 16" wid=
+th=3D"12"><path d=3D"M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1=
+.48 3.75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"=
+></path></svg>
+              <span class=3D"select-menu-title">Notifications</span>
+            </div>
+
+              <div class=3D"select-menu-list js-navigation-container" role=
+=3D"menu">
+
+                <div class=3D"select-menu-item js-navigation-item selected"=
+ role=3D"menuitem" tabindex=3D"0">
+                  <svg aria-hidden=3D"true" class=3D"octicon octicon-check=
+ select-menu-item-icon" height=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16"=
+ width=3D"12"><path d=3D"M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"><=
+/path></svg>
+                  <div class=3D"select-menu-item-text">
+                    <input checked=3D"checked" id=3D"do_included" name=3D"d=
+o" value=3D"included" type=3D"radio">
+                    <span class=3D"select-menu-item-heading">Not watching</=
+span>
+                    <span class=3D"description">Be notified when participat=
+ing or @mentioned.</span>
+                    <span class=3D"js-select-button-text hidden-select-butt=
+on-text">
+                      <svg aria-hidden=3D"true" class=3D"octicon octicon-ey=
+e" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path=
+ d=3D"M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.=
+06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z=
+ m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z"></path></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class=3D"select-menu-item js-navigation-item " role=3D=
+"menuitem" tabindex=3D"0">
+                  <svg aria-hidden=3D"true" class=3D"octicon octicon-check=
+ select-menu-item-icon" height=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16"=
+ width=3D"12"><path d=3D"M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"><=
+/path></svg>
+                  <div class=3D"select-menu-item-text">
+                    <input id=3D"do_subscribed" name=3D"do" value=3D"subscr=
+ibed" type=3D"radio">
+                    <span class=3D"select-menu-item-heading">Watching</span>
+                    <span class=3D"description">Be notified of all conversa=
+tions.</span>
+                    <span class=3D"js-select-button-text hidden-select-butt=
+on-text">
+                      <svg aria-hidden=3D"true" class=3D"octicon octicon-ey=
+e" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path=
+ d=3D"M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.=
+06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z=
+ m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z"></path></svg>
+                      Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class=3D"select-menu-item js-navigation-item " role=3D=
+"menuitem" tabindex=3D"0">
+                  <svg aria-hidden=3D"true" class=3D"octicon octicon-check=
+ select-menu-item-icon" height=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16"=
+ width=3D"12"><path d=3D"M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"><=
+/path></svg>
+                  <div class=3D"select-menu-item-text">
+                    <input id=3D"do_ignore" name=3D"do" value=3D"ignore" ty=
+pe=3D"radio">
+                    <span class=3D"select-menu-item-heading">Ignoring</span>
+                    <span class=3D"description">Never be notified.</span>
+                    <span class=3D"js-select-button-text hidden-select-butt=
+on-text">
+                      <svg aria-hidden=3D"true" class=3D"octicon octicon-mu=
+te" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path=
+ d=3D"M8 2.81v10.38c0 0.67-0.81 1-1.28 0.53L3 10H1c-0.55 0-1-0.45-1-1V7c0-0=
+.55 0.45-1 1-1h2l3.72-3.72c0.47-0.47 1.28-0.14 1.28 0.53z m7.53 3.22l-1.06-=
+1.06-1.97 1.97-1.97-1.97-1.06 1.06 1.97 1.97-1.97 1.97 1.06 1.06 1.97-1.97=
+ 1.97 1.97 1.06-1.06-1.97-1.97 1.97-1.97z"></path></svg>
+                      Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+   =20
+  <div class=3D"js-toggler-container js-social-container starring-container=
+ ">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" action=
+=3D"https://github.com/rowanmiller/Demo-EFCore/unstar" class=3D"starred" da=
+ta-form-nonce=3D"1283baa33768e0ea6540d4e779fda6f6002cd7d1" data-remote=3D"t=
+rue" method=3D"post"><div style=3D"margin:0;padding:0;display:inline"><inpu=
+t name=3D"utf8" value=3D"=E2=9C=93" type=3D"hidden"><input name=3D"authenti=
+city_token" value=3D"r2tZaX6GTmjdLxhiY/ROBGtWOFlWIK0GVfPF+4ue2oKH0AHCjo7S3h=
+iMgDXw6P6vrxYC2uBfviyFp3vsQfcMYQ=3D=3D" type=3D"hidden"></div>
+      <button class=3D"btn btn-sm btn-with-count js-toggler-target" aria-la=
+bel=3D"Unstar this repository" title=3D"Unstar rowanmiller/Demo-EFCore" dat=
+a-ga-click=3D"Repository, click unstar button, action:blob#show; text:Unsta=
+r">
+        <svg aria-hidden=3D"true" class=3D"octicon octicon-star" height=3D"=
+16" version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M14 6l-4.=
+9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14=
+ 6z"></path></svg>
+        Unstar
+      </button>
+        <a class=3D"social-count js-social-count" href=3D"https://github.co=
+m/rowanmiller/Demo-EFCore/stargazers">
+          21
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" action=
+=3D"https://github.com/rowanmiller/Demo-EFCore/star" class=3D"unstarred" da=
+ta-form-nonce=3D"1283baa33768e0ea6540d4e779fda6f6002cd7d1" data-remote=3D"t=
+rue" method=3D"post"><div style=3D"margin:0;padding:0;display:inline"><inpu=
+t name=3D"utf8" value=3D"=E2=9C=93" type=3D"hidden"><input name=3D"authenti=
+city_token" value=3D"w3bW4vWBAJAW7x8RgA5Hb3u+PqSm/3Ea5QPVIq4/70Gm7qRr5xN97G=
+KluSgXeH0hHnYJVbBAco45iAsH6hOiaw=3D=3D" type=3D"hidden"></div>
+      <button class=3D"btn btn-sm btn-with-count js-toggler-target" aria-la=
+bel=3D"Star this repository" title=3D"Star rowanmiller/Demo-EFCore" data-ga=
+-click=3D"Repository, click star button, action:blob#show; text:Star">
+        <svg aria-hidden=3D"true" class=3D"octicon octicon-star" height=3D"=
+16" version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M14 6l-4.=
+9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14=
+ 6z"></path></svg>
+        Star
+      </button>
+        <a class=3D"social-count js-social-count" href=3D"https://github.co=
+m/rowanmiller/Demo-EFCore/stargazers">
+          21
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" ac=
+tion=3D"https://github.com/rowanmiller/Demo-EFCore/fork" class=3D"btn-with-=
+count" data-form-nonce=3D"1283baa33768e0ea6540d4e779fda6f6002cd7d1" method=
+=3D"post"><div style=3D"margin:0;padding:0;display:inline"><input name=3D"u=
+tf8" value=3D"=E2=9C=93" type=3D"hidden"><input name=3D"authenticity_token"=
+ value=3D"k8/gm0dRNs8vRKV5mIBtyr5vPCjBLyx/fqWKIhg1IIlF229LAVr5G9nFeF4vtRToc=
+56qh+ZgLyHOxEHa4DvT4A=3D=3D" type=3D"hidden"></div>
+            <button type=3D"submit" class=3D"btn btn-sm btn-with-count" dat=
+a-ga-click=3D"Repository, show fork modal, action:blob#show; text:Fork" tit=
+le=3D"Fork your own copy of rowanmiller/Demo-EFCore to your account" aria-l=
+abel=3D"Fork your own copy of rowanmiller/Demo-EFCore to your account">
+              <svg aria-hidden=3D"true" class=3D"octicon octicon-repo-forke=
+d" height=3D"16" version=3D"1.1" viewBox=3D"0 0 10 16" width=3D"10"><path=
+ d=3D"M8 1c-1.11 0-2 0.89-2 2 0 0.73 0.41 1.38 1 1.72v1.28L5 8 3 6v-1.28c0.=
+59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v=
+1.78l3 3v1.78c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-=
+0.41-1.38-1-1.72V9.5l3-3V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2zM2=
+ 4.2c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.=
+2 1.2z m3 10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.5=
+5 1.2-1.2 1.2z m3-10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2=
+ 1.2-0.55 1.2-1.2 1.2z"></path></svg>
+              Fork
+            </button>
+</form>
+    <a href=3D"https://github.com/rowanmiller/Demo-EFCore/network" class=3D=
+"social-count">
+      10
+    </a>
+  </li>
+</ul>
+
+    <h1 class=3D"entry-title public ">
+  <svg aria-hidden=3D"true" class=3D"octicon octicon-repo" height=3D"16" ve=
+rsion=3D"1.1" viewBox=3D"0 0 12 16" width=3D"12"><path d=3D"M4 9h-1v-1h1v1z=
+ m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H=
+6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0=
+ 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+  <span class=3D"author" itemprop=3D"author"><a href=3D"https://github.com/=
+rowanmiller" class=3D"url fn" rel=3D"author">rowanmiller</a></span><!--
+--><span class=3D"path-divider">/</span><!--
+--><strong itemprop=3D"name"><a href=3D"https://github.com/rowanmiller/Demo=
+-EFCore" data-pjax=3D"#js-repo-pjax-container">Demo-EFCore</a></strong>
+
+</h1>
+
+  </div>
+  <div class=3D"container">
+   =20
+<nav class=3D"reponav js-repo-nav js-sidenav-container-pjax" itemscope=3D""=
+ itemtype=3D"http://schema.org/BreadcrumbList" role=3D"navigation" data-pja=
+x=3D"#js-repo-pjax-container">
+
+  <span itemscope=3D"" itemtype=3D"http://schema.org/ListItem" itemprop=3D"=
+itemListElement">
+    <a href=3D"https://github.com/rowanmiller/Demo-EFCore" aria-selected=3D=
+"true" class=3D"js-selected-navigation-item selected reponav-item" data-hot=
+key=3D"g c" data-selected-links=3D"repo_source repo_downloads repo_commits=
+ repo_releases repo_tags repo_branches /rowanmiller/Demo-EFCore" itemprop=
+=3D"url">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-code" height=3D"16=
+" version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M9.5 3l-1.5=
+ 1.5 3.5 3.5L8 11.5l1.5 1.5 4.5-5L9.5 3zM4.5 3L0 8l4.5 5 1.5-1.5L2.5 8l3.5-=
+3.5L4.5 3z"></path></svg>
+      <span itemprop=3D"name">Code</span>
+      <meta itemprop=3D"position" content=3D"1">
+</a>  </span>
+
+    <span itemscope=3D"" itemtype=3D"http://schema.org/ListItem" itemprop=
+=3D"itemListElement">
+      <a href=3D"https://github.com/rowanmiller/Demo-EFCore/issues" class=
+=3D"js-selected-navigation-item reponav-item" data-hotkey=3D"g i" data-sele=
+cted-links=3D"repo_issues repo_labels repo_milestones /rowanmiller/Demo-EFC=
+ore/issues" itemprop=3D"url">
+        <svg aria-hidden=3D"true" class=3D"octicon octicon-issue-opened" he=
+ight=3D"16" version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M=
+7 2.3c3.14 0 5.7 2.56 5.7 5.7S10.14 13.7 7 13.7 1.3 11.14 1.3 8s2.56-5.7 5.=
+7-5.7m0-1.3C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7S10.86 1 7 1z m1 3H6v5h2=
+V4z m0 6H6v2h2V10z"></path></svg>
+        <span itemprop=3D"name">Issues</span>
+        <span class=3D"counter">0</span>
+        <meta itemprop=3D"position" content=3D"2">
+</a>    </span>
+
+  <span itemscope=3D"" itemtype=3D"http://schema.org/ListItem" itemprop=3D"=
+itemListElement">
+    <a href=3D"https://github.com/rowanmiller/Demo-EFCore/pulls" class=3D"j=
+s-selected-navigation-item reponav-item" data-hotkey=3D"g p" data-selected-=
+links=3D"repo_pulls /rowanmiller/Demo-EFCore/pulls" itemprop=3D"url">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-git-pull-request"=
+ height=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16" width=3D"12"><path d=
+=3D"M11 11.28c0-1.73 0-6.28 0-6.28-0.03-0.78-0.34-1.47-0.94-2.06s-1.28-0.91=
+-2.06-0.94c0 0-1.02 0-1 0V0L4 3l3 3V4h1c0.27 0.02 0.48 0.11 0.69 0.31s0.3=
+ 0.42 0.31 0.69v6.28c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c=
+0-0.73-0.41-1.38-1-1.72z m-1 2.92c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2=
+ 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2zM4 3c0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73=
+ 0.41 1.38 1 1.72 0 1.55 0 5.56 0 6.56-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89=
+ 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V4.72c0.59-0.34 1-0.98 1-1.72z m-0=
+.8 10c0 0.66-0.55 1.2-1.2 1.2s-1.2-0.55-1.2-1.2 0.55-1.2 1.2-1.2 1.2 0.55=
+ 1.2 1.2z m-1.2-8.8c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2=
+ 1.2-0.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop=3D"name">Pull requests</span>
+      <span class=3D"counter">1</span>
+      <meta itemprop=3D"position" content=3D"3">
+</a>  </span>
+
+    <a href=3D"https://github.com/rowanmiller/Demo-EFCore/wiki" class=3D"js=
+-selected-navigation-item reponav-item" data-hotkey=3D"g w" data-selected-l=
+inks=3D"repo_wiki /rowanmiller/Demo-EFCore/wiki">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-book" height=3D"16=
+" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M2 5h4v1H2v=
+-1z m0 3h4v-1H2v1z m0 2h4v-1H2v1z m11-5H9v1h4v-1z m0 2H9v1h4v-1z m0 2H9v1h4=
+v-1z m2-6v9c0 0.55-0.45 1-1 1H8.5l-1 1-1-1H1c-0.55 0-1-0.45-1-1V3c0-0.55 0.=
+45-1 1-1h5.5l1 1 1-1h5.5c0.55 0 1 0.45 1 1z m-8 0.5l-0.5-0.5H1v9h6V3.5z m7-=
+0.5H8.5l-0.5 0.5v8.5h6V3z"></path></svg>
+      Wiki
+</a>
+
+  <a href=3D"https://github.com/rowanmiller/Demo-EFCore/pulse" class=3D"js-=
+selected-navigation-item reponav-item" data-selected-links=3D"pulse /rowanm=
+iller/Demo-EFCore/pulse">
+    <svg aria-hidden=3D"true" class=3D"octicon octicon-pulse" height=3D"16"=
+ version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M11.5 8L8.8=
+ 5.4 6.6 8.5 5.5 1.6 2.38 8H0V10h3.6L4.5 8.2l0.9 5.4L9 8.5l1.6 1.5H14V8H11.=
+5z"></path></svg>
+    Pulse
+</a>
+  <a href=3D"https://github.com/rowanmiller/Demo-EFCore/graphs" class=3D"js=
+-selected-navigation-item reponav-item" data-selected-links=3D"repo_graphs=
+ repo_contributors /rowanmiller/Demo-EFCore/graphs">
+    <svg aria-hidden=3D"true" class=3D"octicon octicon-graph" height=3D"16"=
+ version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M16 14v1H0V0=
+h1v14h15z m-11-1H3V8h2v5z m4 0H7V3h2v10z m4 0H11V6h2v7z"></path></svg>
+    Graphs
+</a>
+
+</nav>
+
+  </div>
+</div>
+
+<div class=3D"container new-discussion-timeline experiment-repo-nav">
+  <div class=3D"repository-content">
+
+   =20
+
+<a href=3D"https://github.com/rowanmiller/Demo-EFCore/blob/bc752e43ede3ea64=
+0efc865c810b685edf94a9a3/DemoScript.md" class=3D"hidden js-permalink-shortc=
+ut" data-hotkey=3D"y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:bbf8e3dfb8fb204d22e1aba8b5012b=
+18 -->
+
+<div class=3D"file-navigation js-zeroclipboard-container">
+ =20
+<div class=3D"select-menu branch-select-menu js-menu-container js-select-me=
+nu left">
+  <button class=3D"btn btn-sm select-menu-button js-menu-target css-truncat=
+e" data-hotkey=3D"w" title=3D"master" type=3D"button" aria-label=3D"Switch=
+ branches or tags" tabindex=3D"0" aria-haspopup=3D"true">
+    <i>Branch:</i>
+    <span class=3D"js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class=3D"select-menu-modal-holder js-menu-content js-navigation-cont=
+ainer" data-pjax=3D"" aria-hidden=3D"true">
+
+    <div class=3D"select-menu-modal">
+      <div class=3D"select-menu-header">
+        <svg aria-label=3D"Close" class=3D"octicon octicon-x js-menu-close"=
+ height=3D"16" role=3D"img" version=3D"1.1" viewBox=3D"0 0 12 16" width=3D"=
+12"><path d=3D"M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.=
+75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></pat=
+h></svg>
+        <span class=3D"select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class=3D"select-menu-filters">
+        <div class=3D"select-menu-text-filter">
+          <input aria-label=3D"Filter branches/tags" id=3D"context-commitis=
+h-filter-field" class=3D"form-control js-filterable-field js-navigation-ena=
+ble" placeholder=3D"Filter branches/tags" type=3D"text">
+        </div>
+        <div class=3D"select-menu-tabs">
+          <ul>
+            <li class=3D"select-menu-tab">
+              <a href=3D"#" data-tab-filter=3D"branches" data-filter-placeh=
+older=3D"Filter branches/tags" class=3D"js-select-menu-tab" role=3D"tab">Br=
+anches</a>
+            </li>
+            <li class=3D"select-menu-tab">
+              <a href=3D"#" data-tab-filter=3D"tags" data-filter-placeholde=
+r=3D"Find a tag=E2=80=A6" class=3D"js-select-menu-tab" role=3D"tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class=3D"select-menu-list select-menu-tab-bucket js-select-menu-=
+tab-bucket" data-tab-filter=3D"branches" role=3D"menu">
+
+        <div data-filterable-for=3D"context-commitish-filter-field" data-fi=
+lterable-type=3D"substring">
+
+
+            <a class=3D"select-menu-item js-navigation-item js-navigation-o=
+pen selected" href=3D"#" data-name=3D"master" data-skip-pjax=3D"true" rel=
+=3D"nofollow">
+              <svg aria-hidden=3D"true" class=3D"octicon octicon-check sele=
+ct-menu-item-icon" height=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16" widt=
+h=3D"12"><path d=3D"M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"></path=
+></svg>
+              <span class=3D"select-menu-item-text css-truncate-target js-s=
+elect-menu-filter-text" title=3D"master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class=3D"select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class=3D"select-menu-list select-menu-tab-bucket js-select-menu-=
+tab-bucket" data-tab-filter=3D"tags">
+        <div data-filterable-for=3D"context-commitish-filter-field" data-fi=
+lterable-type=3D"substring">
+
+
+        </div>
+
+        <div class=3D"select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class=3D"btn-group right">
+    <a href=3D"https://github.com/rowanmiller/Demo-EFCore/find/master" clas=
+s=3D"js-pjax-capture-input btn btn-sm" data-pjax=3D"" data-hotkey=3D"t">
+      Find file
+    </a>
+    <button aria-label=3D"Copy file path to clipboard" class=3D"js-zeroclip=
+board btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-=
+hint=3D"Copied!" type=3D"button">Copy path</button>
+  </div>
+  <div class=3D"breadcrumb js-zeroclipboard-target">
+    <span class=3D"repo-root js-repo-root"><span class=3D"js-path-segment">=
+<a href=3D"https://github.com/rowanmiller/Demo-EFCore"><span>Demo-EFCore</s=
+pan></a></span></span><span class=3D"separator">/</span><strong class=3D"fi=
+nal-path">DemoScript.md</strong>
+  </div>
+</div>
+
+
+
+  <div class=3D"commit-tease">
+      <span class=3D"right">
+        <a class=3D"commit-tease-sha" href=3D"https://github.com/rowanmille=
+r/Demo-EFCore/commit/487c0f6d423e235cf44f3f4a88a16ecd1791a769" data-pjax=3D=
+"">
+          487c0f6
+        </a>
+        <relative-time title=3D"May 2, 2016, 7:27 PM GMT+2" datetime=3D"201=
+6-05-02T17:27:48Z">7 days ago</relative-time>
+      </span>
+      <div>
+        <img alt=3D"@rowanmiller" class=3D"avatar" src=3D"https://avatars2.=
+githubusercontent.com/u/4741851?v=3D3&amp;s=3D40" height=3D"20" width=3D"20=
+">
+        <a href=3D"https://github.com/rowanmiller" class=3D"user-mention"=
+ rel=3D"author">rowanmiller</a>
+          <a href=3D"https://github.com/rowanmiller/Demo-EFCore/commit/487c=
+0f6d423e235cf44f3f4a88a16ecd1791a769" class=3D"message" data-pjax=3D"true"=
+ title=3D":bug: Fix script for Azure database
+
+Resolves #3"><img class=3D"emoji" title=3D":bug:" alt=3D":bug:" src=3D"http=
+s://assets-cdn.github.com/images/icons/emoji/unicode/1f41b.png" height=3D"2=
+0" align=3D"absmiddle" width=3D"20"> Fix script for Azure database</a>
+      </div>
+
+    <div class=3D"commit-tease-contributors">
+      <button type=3D"button" class=3D"btn-link muted-link contributors-tog=
+gle" data-facebox=3D"#blob_contributors_box">
+        <strong>1</strong>
+         contributor
+      </button>
+     =20
+    </div>
+
+    <div id=3D"blob_contributors_box" style=3D"display:none">
+      <h2 class=3D"facebox-header" data-facebox-id=3D"facebox-header">Users=
+ who have contributed to this file</h2>
+      <ul class=3D"facebox-user-list" data-facebox-id=3D"facebox-descriptio=
+n">
+          <li class=3D"facebox-user-list-item">
+            <img alt=3D"@rowanmiller" src=3D"https://avatars0.githubusercon=
+tent.com/u/4741851?v=3D3&amp;s=3D48" height=3D"24" width=3D"24">
+            <a href=3D"https://github.com/rowanmiller">rowanmiller</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class=3D"file">
+  <div class=3D"file-header">
+  <div class=3D"file-actions">
+
+    <div class=3D"btn-group">
+      <a href=3D"https://github.com/rowanmiller/Demo-EFCore/raw/master/Demo=
+Script.md" class=3D"btn btn-sm " id=3D"raw-url">Raw</a>
+        <a href=3D"https://github.com/rowanmiller/Demo-EFCore/blame/master/=
+DemoScript.md" class=3D"btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href=3D"https://github.com/rowanmiller/Demo-EFCore/commits/master/=
+DemoScript.md" class=3D"btn btn-sm " rel=3D"nofollow">History</a>
+    </div>
+
+        <a class=3D"btn-octicon tooltipped tooltipped-nw" href=3D"github-wi=
+ndows://openRepo/https://github.com/rowanmiller/Demo-EFCore?branch=3Dmaster=
+&amp;filepath=3DDemoScript.md" aria-label=3D"Open this file in GitHub Deskt=
+op" data-ga-click=3D"Repository, open with desktop, type:windows">
+            <svg aria-hidden=3D"true" class=3D"octicon octicon-device-deskt=
+op" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path=
+ d=3D"M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86=
+ 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-=
+0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
+        </a>
+
+        <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" acti=
+on=3D"https://github.com/rowanmiller/Demo-EFCore/edit/master/DemoScript.md"=
+ class=3D"inline-form js-update-url-with-hash" data-form-nonce=3D"1283baa33=
+768e0ea6540d4e779fda6f6002cd7d1" method=3D"post"><div style=3D"margin:0;pad=
+ding:0;display:inline"><input name=3D"utf8" value=3D"=E2=9C=93" type=3D"hid=
+den"><input name=3D"authenticity_token" value=3D"7DqYIx2MU4YfbKUMZ5nblSklis=
+Q0Hr29g3Ymn8VeoilTWhxDmpKUsa63ul4I6RwaOiL52kLzG5/fiWP5tIIYVw=3D=3D" type=3D=
+"hidden"></div>
+          <button class=3D"btn-octicon tooltipped tooltipped-nw" type=3D"su=
+bmit" aria-label=3D"Fork this project and edit the file" data-hotkey=3D"e"=
+ data-disable-with=3D"">
+            <svg aria-hidden=3D"true" class=3D"octicon octicon-pencil" heig=
+ht=3D"16" version=3D"1.1" viewBox=3D"0 0 14 16" width=3D"14"><path d=3D"M0=
+ 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.3=
+9-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
+          </button>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-=
+8" action=3D"https://github.com/rowanmiller/Demo-EFCore/delete/master/DemoS=
+cript.md" class=3D"inline-form" data-form-nonce=3D"1283baa33768e0ea6540d4e7=
+79fda6f6002cd7d1" method=3D"post"><div style=3D"margin:0;padding:0;display:=
+inline"><input name=3D"utf8" value=3D"=E2=9C=93" type=3D"hidden"><input nam=
+e=3D"authenticity_token" value=3D"i9i2Ffgpza3Hj0HQrRcllGnxXPgyI/LSNfNzFrg83=
+ZZVz9WrDHAQR3z2bgJfDSgWGqFnAEVmv1vF58IjhFzItA=3D=3D" type=3D"hidden"></div>
+          <button class=3D"btn-octicon btn-octicon-danger tooltipped toolti=
+pped-nw" type=3D"submit" aria-label=3D"Fork this project and delete the fil=
+e" data-disable-with=3D"">
+            <svg aria-hidden=3D"true" class=3D"octicon octicon-trashcan" he=
+ight=3D"16" version=3D"1.1" viewBox=3D"0 0 12 16" width=3D"12"><path d=3D"M=
+10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55=
+ 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c=
+0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"=
+></path></svg>
+          </button>
+</form>  </div>
+
+  <div class=3D"file-info">
+      404 lines (306 sloc)
+      <span class=3D"file-info-divider"></span>
+    13.7 KB
+  </div>
+</div>
+
+ =20
+  <div id=3D"readme" class=3D"readme blob instapaper_body">
+    <article class=3D"markdown-body entry-content" itemprop=3D"text"><p>The=
+ demo is broken up into a series of sections that showcase specific feature=
+s. Each section has a corresponding slide in the slide deck, which you can=
+ use to provide a quick summary of the feature before demoing it. This also=
+ helps break up the long demo section of the talk into logical 5-10min chun=
+ks, which helps folks keep up to speed.</p>
+
+<p>The demos are largely self contained, so you can pick and chose which on=
+es you show, and change the order of them.</p>
+
+<h1><a id=3D"user-content-one-time-setup" class=3D"anchor" href=3D"#one-tim=
+e-setup" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octicon oc=
+ticon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16=
+"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69=
+ 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.=
+5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1=
+.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.=
+53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5=
+z"></path></svg></a>One Time Setup</h1>
+
+<p>Required once on a machine to get it ready for these demos</p>
+
+<ul>
+<li>Install Visual Studio 2015</li>
+<li>Install SQL Server Management Studio</li>
+<li>Clone this repository to your local machine (or <a href=3D"https://gith=
+ub.com/rowanmiller/Demo-EFCore/archive/master.zip">download the source code=
+ zip</a> and extract it)</li>
+<li>Add the <a href=3D"https://msftdbprodsamples.codeplex.com/releases/view=
+/125550">AdventureWorks2014 sample database</a> to you LocalDb instance (<c=
+ode>(localdb)\mssqllocaldb</code>)</li>
+<li><strong>Optional:</strong> If you want to show the performance impact=
+ of SaveChanges batching against a high-latency database, then create an Ad=
+ventureWorks2014 database on an SQL Azure instance. Run the following scrip=
+t to create the required schema.</li>
+</ul>
+
+<pre><code>CREATE SCHEMA Production
+GO
+
+CREATE SCHEMA Sales
+GO
+
+CREATE TYPE [dbo].[Name] FROM [nvarchar](50) NULL =20
+GO
+
+CREATE TABLE [Production].[ProductCategory](
+    [ProductCategoryID] [int] IDENTITY(1,1) NOT NULL,
+    [Name] [dbo].[Name] NOT NULL,
+    [rowguid] [uniqueidentifier] ROWGUIDCOL  NOT NULL CONSTRAINT [DF_Produc=
+tCategory_rowguid]  DEFAULT (newid()),
+    [ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF_ProductCategory_Modif=
+iedDate]  DEFAULT (getdate()),
+    CONSTRAINT [PK_ProductCategory_ProductCategoryID] PRIMARY KEY CLUSTERED=
+ ([ProductCategoryID] ASC))
+GO
+
+CREATE TABLE [Sales].[Customer](
+    [CustomerID] [int] IDENTITY(1,1) NOT NULL,
+    [PersonID] [int] NULL,
+    [StoreID] [int] NULL,
+    [TerritoryID] [int] NULL,
+    [AccountNumber] [nvarchar](200) NULL,
+    [rowguid] [uniqueidentifier] ROWGUIDCOL  NOT NULL CONSTRAINT [DF_Produc=
+tCategory_rowguid]  DEFAULT (newid()),
+    [ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF_ProductCategory_Modif=
+iedDate]  DEFAULT (getdate()),
+    CONSTRAINT [PK_Customer_CustomerID] PRIMARY KEY CLUSTERED ([CustomerID]=
+ ASC))
+GO
+</code></pre>
+
+<h1><a id=3D"user-content-everytime-setup" class=3D"anchor" href=3D"#everyt=
+ime-setup" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octicon=
+ octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D=
+"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3=
+ 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.=
+02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2=
+ 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-=
+1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.=
+5-3-3.5z"></path></svg></a>Everytime Setup</h1>
+
+<p>Required before/after each run thru the demos</p>
+
+<ul>
+<li>Reset the starting point source code
+
+<ul>
+<li>If you cloned the repo, you can use <code>git reset --hard</code> to re=
+vert changes</li>
+<li>If you downloaded the zip, you should just keep a copy to replace the=
+ code you modified during the demo</li>
+</ul></li>
+<li>Delete NoteTaker local databases
+
+<ul>
+<li>UWP on local machine - open <code>%LOCALAPPDATA</code> and search for=
+ <code>Notes.db</code>, once you find the folder save a shortcut for the fu=
+ture</li>
+<li>UWP on phone emulator - close the emulator, it's also best to restart=
+ it now too so you don't wait for it to bootup during the talk</li>
+<li>WinForms - delete <code>Notes.db</code> from bin/debug folder of the <c=
+ode>NoteTaker.Classic</code> project</li>
+</ul></li>
+<li>Delete <code>Demo.EFCore101</code> database from your LocalDb intsance<=
+/li>
+<li>Run the <code>FromSql</code> project so that you have the database and=
+ can show the TVF before running the app during the demo</li>
+<li>Reset the <code>IDENTITY</code> column on the table used for <code>INSE=
+RT</code> performance testing in the <code>AdventureWorks2014</code> databa=
+se
+
+<ul>
+<li>You don't need to do this every time, but you may run out of identity=
+ values if you run the demo a lot of times without ever doing this</li>
+</ul></li>
+</ul>
+
+<pre><code>DECLARE @currentMax AS int =3D (SELECT MAX(ProductCategoryId) FR=
+OM [Production].[ProductCategory]);
+DBCC CHECKIDENT ('[Production].[ProductCategory]', RESEED, @currentMax);
+</code></pre>
+
+<ul>
+<li><strong>Optional:</strong> If you want a clean "remote" database for No=
+teTaker, then either drop it or delete everything from the <code>Note</code=
+> table (<code>DELETE FROM dbo.Note</code>)</li>
+<li><strong>Optional:</strong> Delete <code>Demo.ReplacingServices</code>=
+ database to avoid waiting for it to be dropped during the demo</li>
+<li></li>
+</ul>
+
+<h1><a id=3D"user-content-pace-notes" class=3D"anchor" href=3D"#pace-notes"=
+ aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octicon octicon-li=
+nk" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path=
+ d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5=
+ 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.=
+5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.=
+5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2=
+ 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"><=
+/path></svg></a>Pace Notes</h1>
+
+<p>For bigger conferences I keep some rough pace notes so that I have a fee=
+l for how the time is going. Here are the pace notes I used for this talk=
+ at //build 2016.</p>
+
+<table><thead>
+<tr>
+<th>Section</th>
+<th align=3D"right">Duration (min)</th>
+<th align=3D"right">Running Total</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Slides: Welcome &amp; Introducing EF Core</td>
+<td align=3D"right">10</td>
+<td align=3D"right">10</td>
+</tr>
+<tr>
+<td>Slides: EF Core &amp; EF6.x</td>
+<td align=3D"right">3</td>
+<td align=3D"right">13</td>
+</tr>
+<tr>
+<td>Demo: EF Core 101</td>
+<td align=3D"right">5</td>
+<td align=3D"right">18</td>
+</tr>
+<tr>
+<td>Demo: Performance improvements</td>
+<td align=3D"right">10</td>
+<td align=3D"right">28</td>
+</tr>
+<tr>
+<td>Demo: Simplified metadata API</td>
+<td align=3D"right">3</td>
+<td align=3D"right">31</td>
+</tr>
+<tr>
+<td>Demo: Extensible core</td>
+<td align=3D"right"></td>
+<td align=3D"right"></td>
+</tr>
+<tr>
+<td>Part 1: Consume Services</td>
+<td align=3D"right">4</td>
+<td align=3D"right">35</td>
+</tr>
+<tr>
+<td>Part 2: Replace Services</td>
+<td align=3D"right">4</td>
+<td align=3D"right">39</td>
+</tr>
+<tr>
+<td>Demo: Same model, multiple platforms</td>
+<td align=3D"right">7</td>
+<td align=3D"right">46</td>
+</tr>
+<tr>
+<td>Demo: Same model, multiple databases</td>
+<td align=3D"right">5</td>
+<td align=3D"right">51</td>
+</tr>
+<tr>
+<td>Demo: SQL generation improvements</td>
+<td align=3D"right"></td>
+<td align=3D"right"></td>
+</tr>
+<tr>
+<td>Part 1: Batching</td>
+<td align=3D"right">5</td>
+<td align=3D"right">56</td>
+</tr>
+<tr>
+<td>Part 2: FromSql</td>
+<td align=3D"right">4</td>
+<td align=3D"right">60</td>
+</tr>
+</tbody></table>
+
+<h1><a id=3D"user-content-demo-ef-core-101" class=3D"anchor" href=3D"#demo-=
+ef-core-101" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octico=
+n octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=
+=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-=
+1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22=
+ 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16=
+c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-=
+3.5-3-3.5z"></path></svg></a>Demo: EF Core 101</h1>
+
+<ul>
+<li>Set <code>EFCore101</code> as the startup project.</li>
+<li>Open <code>Program.cs</code> and replace the TODO in <code>BloggingCont=
+ext</code> with the following</li>
+</ul>
+
+<pre><code>protected override void OnConfiguring(DbContextOptionsBuilder op=
+tionsBuilder)
+{
+    optionsBuilder
+        .UseSqlServer(@"Server=3D(localdb)\mssqllocaldb;Database=3DDemo.EFC=
+ore101;Trusted_Connection=3DTrue;");
+}
+</code></pre>
+
+<ul>
+<li>Replace the TODO in <code>Program.Main(..)</code> with the following co=
+de</li>
+</ul>
+
+<pre><code>// Create the database
+db.Database.EnsureCreated();
+
+// Save some data
+var blog =3D new Blog { Name =3D "The Dog Blog", Url =3D "http://sample.com=
+/dogs" };
+db.Blogs.Add(blog);
+db.SaveChanges();
+
+// Query some data
+var blogs =3D db.Blogs.OrderBy(b =3D&gt; b.Name).ToList();
+foreach (var item in blogs)
+{
+    Console.WriteLine(item.Name);
+}
+</code></pre>
+
+<ul>
+<li>Run (Ctrl+F5) and show output</li>
+<li>Open the database on your LocalDb instance and show the schema (I usual=
+ly use SQL Server Management Studio)</li>
+</ul>
+
+<h1><a id=3D"user-content-demo-performance" class=3D"anchor" href=3D"#demo-=
+performance" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octico=
+n octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=
+=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0=
+ 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-=
+1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22=
+ 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16=
+c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-=
+3.5-3-3.5z"></path></svg></a>Demo: Performance</h1>
+
+<ul>
+<li>Set <code>Performance</code> as the startup project.</li>
+</ul>
+
+<h2><a id=3D"user-content-part-1-simple-query" class=3D"anchor" href=3D"#pa=
+rt-1-simple-query" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"=
+octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16"=
+ width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1=
+.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-=
+1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2=
+ 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v=
+-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s=
+-1.5-3.5-3-3.5z"></path></svg></a>Part 1: Simple Query</h2>
+
+<ul>
+<li>Add the following code to both test methods, then run (Ctrl+F5) and sho=
+w output</li>
+</ul>
+
+<pre><code>db.Customers.ToList
+</code></pre>
+
+<h2><a id=3D"user-content-part-2-more-complex-query" class=3D"anchor" href=
+=3D"#part-2-more-complex-query" aria-hidden=3D"true"><svg aria-hidden=3D"tr=
+ue" class=3D"octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=3D=
+"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.=
+5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.2=
+7 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v=
+1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.6=
+4 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.=
+69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Part 2: More Complex Query</h2>
+
+<ul>
+<li>Add the following code to both test methods, then run (Ctrl+F5) and sho=
+w output</li>
+</ul>
+
+<pre><code>db.Customers
+    .Where(c =3D&gt; !c.AccountNumber.EndsWith("1"))
+    .OrderBy(c =3D&gt; c.AccountNumber)
+    .ThenBy(c =3D&gt; c.ModifiedDate)
+    .Skip(100)
+    .GroupBy(c =3D&gt; c.TerritoryID)
+    .ToList();
+</code></pre>
+
+<h2><a id=3D"user-content-part-3-adding--saving" class=3D"anchor" href=3D"#=
+part-3-adding--saving" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=
+=3D"octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16=
+ 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5=
+h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.0=
+9 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1=
+ 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2=
+.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-=
+3.5s-1.5-3.5-3-3.5z"></path></svg></a>Part 3: Adding &amp; Saving</h2>
+
+<ul>
+<li>Add the following code to both test methods (note you need to change th=
+e type that is created), then run (Ctrl+F5) and show output</li>
+</ul>
+
+<pre><code>using (var db =3D new EF6.AdventureWorksContext())
+{
+    for (int i =3D 0; i &lt; 1000; i++)
+    {
+        db.ProductCategories.Add(new EF6.ProductCategory { Name =3D $"Test=
+ {Guid.NewGuid()}" });
+    }
+    db.SaveChanges();
+}
+</code></pre>
+
+<h2><a id=3D"user-content-part-4-adding--saving-optimized-ef6-code" class=
+=3D"anchor" href=3D"#part-4-adding--saving-optimized-ef6-code" aria-hidden=
+=3D"true"><svg aria-hidden=3D"true" class=3D"octicon octicon-link" height=
+=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M4 9h=
+1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91=
+ 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-=
+2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0=
+.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25=
+ 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg>=
+</a>Part 4: Adding &amp; Saving (Optimized EF6 Code)</h2>
+
+<ul>
+<li>Change EF6 code to the following, then run (Ctrl+F5) and show output</l=
+i>
+</ul>
+
+<pre><code>using (var db =3D new EF6.AdventureWorksContext())
+{
+    db.Configuration.AutoDetectChangesEnabled =3D false;
+    var categories =3D new EF6.ProductCategory[1000];
+    for (int i =3D 0; i &lt; 1000; i++)
+    {
+        categories[i] =3D new EF6.ProductCategory { Name =3D $"Test {Guid.N=
+ewGuid()}" };
+    }
+    db.ProductCategories.AddRange(categories);
+    db.SaveChanges();
+}
+</code></pre>
+
+<h1><a id=3D"user-content-demo-simplified-metadata-api" class=3D"anchor" hr=
+ef=3D"#demo-simplified-metadata-api" aria-hidden=3D"true"><svg aria-hidden=
+=3D"true" class=3D"octicon octicon-link" height=3D"16" version=3D"1.1" view=
+Box=3D"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1=
+.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45=
+ 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9=
+-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.=
+42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45=
+ 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Demo: Simplified Metadata=
+ API</h1>
+
+<ul>
+<li>Set <code>Metadata</code> as the startup project.</li>
+<li>Show how complex <code>PrintEF6Mappings()</code> is</li>
+<li>Replace the TODO in <code>PrintEFCoreMappings()</code> with the followi=
+ng code</li>
+</ul>
+
+<pre><code>foreach (var entity in db.Model.GetEntityTypes())
+{
+    Console.WriteLine($" {entity.ClrType.Name} =3D&gt; {entity.SqlServer().=
+TableName}");
+}
+</code></pre>
+
+<ul>
+<li>Run (Ctrl+F5) and show output</li>
+</ul>
+
+<h1><a id=3D"user-content-demo-extensible-core" class=3D"anchor" href=3D"#d=
+emo-extensible-core" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=
+=3D"octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16=
+ 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5=
+h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.0=
+9 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1=
+ 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2=
+.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-=
+3.5s-1.5-3.5-3-3.5z"></path></svg></a>Demo: Extensible Core</h1>
+
+<h2><a id=3D"user-content-part-1-consuming-services" class=3D"anchor" href=
+=3D"#part-1-consuming-services" aria-hidden=3D"true"><svg aria-hidden=3D"tr=
+ue" class=3D"octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=3D=
+"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.=
+5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.2=
+7 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v=
+1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.6=
+4 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.=
+69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Part 1: Consuming Services</h2>
+
+<ul>
+<li>Set <code>ConsumingServices</code> as the startup project</li>
+<li>Update the <code>Main</code> method with the following code</li>
+</ul>
+
+<pre><code>var serviceProvider =3D db.GetInfrastructure&lt;IServiceProvider=
+&gt;();
+var typeMapper =3D serviceProvider.GetService&lt;IRelationalTypeMapper&gt;(=
+);
+
+Console.WriteLine($"Type mapper in use: {typeMapper.GetType().Name}");
+Console.WriteLine($"Mapping for bool: {typeMapper.GetMapping(typeof(bool)).=
+DefaultTypeName}");
+Console.WriteLine($"Mapping for string: {typeMapper.GetMapping(typeof(strin=
+g)).DefaultTypeName}");
+</code></pre>
+
+<ul>
+<li>Run (Ctrl+F5) and show output</li>
+</ul>
+
+<h2><a id=3D"user-content-part-2-replacing-services" class=3D"anchor" href=
+=3D"#part-2-replacing-services" aria-hidden=3D"true"><svg aria-hidden=3D"tr=
+ue" class=3D"octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=3D=
+"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.=
+5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.2=
+7 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v=
+1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.6=
+4 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.=
+69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Part 2: Replacing Services</h2>
+
+<ul>
+<li>Set <code>ReplacingServices</code> as the startup project</li>
+<li>Show <code>Blog.Metadata</code> with the custom <code>[Xml]</code> attr=
+ibute</li>
+<li>Open <code>CustomSqlServerTypeMapper</code></li>
+<li>Replace the TODO in <code>GetMapping(IProperty property)</code> with th=
+e following code</li>
+</ul>
+
+<pre><code>if (property.HasClrAttribute&lt;XmlAttribute&gt;())
+{
+    return _xml;
+}
+</code></pre>
+
+<ul>
+<li>Add a constructor to <code>BloggingContext</code> that passes in an ext=
+ernal service provider</li>
+</ul>
+
+<pre><code>public BloggingContext(IServiceProvider serviceProvider)
+    : base(serviceProvider)
+{ }
+</code></pre>
+
+<ul>
+<li>Replace the TODO in <code>Main</code> with the following code</li>
+</ul>
+
+<pre><code>var serviceCollection =3D new ServiceCollection();
+
+serviceCollection
+    .AddEntityFramework()
+    .AddSqlServer();
+
+serviceCollection.AddSingleton&lt;SqlServerTypeMapper, CustomSqlServerTypeM=
+apper&gt;();
+
+using (var db =3D new BloggingContext(serviceCollection.BuildServiceProvide=
+r()))
+{
+    ...
+</code></pre>
+
+<ul>
+<li>Run (Ctrl+F5) and show output</li>
+<li>Open the database on your LocalDb instance and show the xml column in=
+ the table (I usually use SQL Server Management Studio)</li>
+</ul>
+
+<h1><a id=3D"user-content-demo-same-model-different-platforms" class=3D"anc=
+hor" href=3D"#demo-same-model-different-platforms" aria-hidden=3D"true"><sv=
+g aria-hidden=3D"true" class=3D"octicon octicon-link" height=3D"16" version=
+=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3=
+-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1=
+.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1=
+ 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2=
+-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5=
+ 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Demo: Same=
+ Model, Different Platforms</h1>
+
+<h2><a id=3D"user-content-part-1-uwp" class=3D"anchor" href=3D"#part-1-uwp"=
+ aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octicon octicon-li=
+nk" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path=
+ d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5=
+ 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.=
+5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.=
+5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2=
+ 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"><=
+/path></svg></a>Part 1: UWP</h2>
+
+<ul>
+<li>Set <code>NoteTaker.Modern</code> as the startup project</li>
+<li>Replace the TODO in <code>NoteContext</code> (<code>NoteTaker</code> pr=
+oject) with the following code</li>
+</ul>
+
+<pre><code>optionsBuilder.UseSqlite("Filename=3DNotes.db");
+</code></pre>
+
+<ul>
+<li>Open the code behind for NewNotePage.xaml</li>
+<li>Replace the TODO with the following code</li>
+</ul>
+
+<pre><code>using (var db =3D new NoteContext())
+{
+    db.Notes.Add(note);
+    db.SaveChanges();
+}
+</code></pre>
+
+<ul>
+<li>Show the code behind <code>ExistingNotesPage.xaml</code></li>
+<li>Run the app and show that notes are saved and queried</li>
+<li><strong>Optional:</strong> open up the folder for the app and show the=
+ <code>Notes.db</code> file on disk</li>
+<li><strong>Optional:</strong> swap to deploy to the phone emulator and sho=
+w the app working there</li>
+</ul>
+
+<h2><a id=3D"user-content-part-2-winforms" class=3D"anchor" href=3D"#part-2=
+-winforms" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octicon=
+ octicon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D=
+"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3=
+ 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.=
+02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2=
+ 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-=
+1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.=
+5-3-3.5z"></path></svg></a>Part 2: WinForms</h2>
+
+<ul>
+<li>Set <code>NoteTaker.Classic</code> as the startup project</li>
+<li>Open the code behing <code>MainForm.cs</code></li>
+<li>Replace the TODO in <code>save_Click()</code> with the following code=
+ (or copy/paste it from the UWP app)</li>
+</ul>
+
+<pre><code>using (var db =3D new NoteContext())
+{
+    db.Notes.Add(note);
+    db.SaveChanges();
+}
+</code></pre>
+
+<ul>
+<li>Run the app and show that notes are saved and queried</li>
+<li><strong>Optional:</strong> open up the <code>bin\debug</code> folder an=
+d show the <code>Notes.db</code> file on disk</li>
+</ul>
+
+<h1><a id=3D"user-content-demo-same-model-different-databases" class=3D"anc=
+hor" href=3D"#demo-same-model-different-databases" aria-hidden=3D"true"><sv=
+g aria-hidden=3D"true" class=3D"octicon octicon-link" height=3D"16" version=
+=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3=
+-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1=
+.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1=
+ 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2=
+-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5=
+ 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Demo: Same=
+ Model, Different Databases</h1>
+
+<ul>
+<li>Modify <code>NoteContext</code> (<code>NoteTaker</code> project) to tak=
+e external options (new constructor and defensive code in <code>OnConfiguri=
+ng</code>)</li>
+</ul>
+
+<pre><code>public class NoteContext : DbContext
+{
+    public NoteContext()
+    { }
+
+    public NoteContext(DbContextOptions options)
+        : base(options)
+    { }
+
+    public DbSet&lt;Note&gt; Notes { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBu=
+ilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            optionsBuilder.UseSqlite("Filename=3DNotes.db");
+        }
+    }
+}
+</code></pre>
+
+<ul>
+<li><p><strong>Optional:</strong> Add the <code>IsUploaded</code> property=
+ to the <code>DataGridView</code> on <code>MainForm</code></p>
+
+<ul>
+<li>Open <code>MainForm</code> in the designer</li>
+<li>Click on the existing notes grid view</li>
+<li>Click the little arrow that shows in the top right of the grid view</li>
+<li>Select <code>Edit Columns...</code></li>
+<li>Click <code>Add...</code></li>
+<li>Select <code>IsUploaded</code> in the property list</li>
+<li>Check the <code>Read Only</code> check box</li>
+<li>Click <code>OK</code></li>
+<li>Click <code>Close</code></li>
+<li>Change the <code>AutoSizeMode</code> for the new column to <code>AllCel=
+ls</code></li>
+</ul></li>
+<li><p>Open the code behing <code>MainForm.cs</code></p></li>
+<li>Replace the TODO in <code>upload_Click()</code> with the following code=
+</li>
+</ul>
+
+<pre><code>var connectionString =3D ConfigurationManager.ConnectionStrings[=
+"RemoteDatabase"].ConnectionString;
+var builder =3D new DbContextOptionsBuilder();
+builder.UseSqlServer(connectionString);
+var options =3D builder.Options;
+
+using (var db =3D new NoteContext(options))
+{
+    db.Database.EnsureCreated();
+    db.Notes.AddRange(newNotes);
+    db.SaveChanges();
+}
+</code></pre>
+
+<ul>
+<li>Run the app, add a few more notes, then select <code>File -&gt; Upload<=
+/code></li>
+<li>Open the "remote" database on your LocalDb instance and show the upload=
+ed data (I usually use SQL Server Management Studio)</li>
+</ul>
+
+<h1><a id=3D"user-content-demo-sql-generation-improvements" class=3D"anchor=
+" href=3D"#demo-sql-generation-improvements" aria-hidden=3D"true"><svg aria=
+-hidden=3D"true" class=3D"octicon octicon-link" height=3D"16" version=3D"1.=
+1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-=
+3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.=
+58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2=
+ 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5=
+ 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3=
+ 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Demo: SQL Gene=
+ration Improvements</h1>
+
+<h2><a id=3D"user-content-part-1-savechanges-batching" class=3D"anchor" hre=
+f=3D"#part-1-savechanges-batching" aria-hidden=3D"true"><svg aria-hidden=3D=
+"true" class=3D"octicon octicon-link" height=3D"16" version=3D"1.1" viewBox=
+=3D"0 0 16 16" width=3D"16"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55=
+-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-=
+1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h=
+-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-=
+1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0=
+ 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Part 1: SaveChanges Batchin=
+g</h2>
+
+<ul>
+<li>Set <code>Batching</code> as the startup project</li>
+<li>Walk thru the code</li>
+<li>Start some form of profiling (I use SQL Server Profiler that comes with=
+ SQL Management Studio)</li>
+<li>Run the app</li>
+<li><p>Show that all changes were persisted in a single command</p></li>
+<li><p>In <code>BloggingContext.OnConfiguring(..)</code> append <code>.MaxB=
+atchSize(5)</code> after the call to <code>UseSqlServer(..)</code></p></li>
+<li><p>Run the app and show that two commands are sent to the database</p><=
+/li>
+<li><p><strong>Optional:</strong> Use the performance demo to show how much=
+ difference batching makes against a high-latency database</p>
+
+<ul>
+<li>Set <code>Performance</code> as the startup project</li>
+<li>If you already did the Performance demo then the code should still be=
+ in the state from Part 4 of that demo</li>
+<li>Change the connection string at the bottom of <code>App.config</code>=
+ to point to the Azure database (see the One Time Setup section for details=
+)</li>
+<li>Run the app (you should see EF Core be ~90% faster than EF6.x)</li>
+</ul></li>
+</ul>
+
+<h2><a id=3D"user-content-part-2-fromsql" class=3D"anchor" href=3D"#part-2-=
+fromsql" aria-hidden=3D"true"><svg aria-hidden=3D"true" class=3D"octicon oc=
+ticon-link" height=3D"16" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16=
+"><path d=3D"M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69=
+ 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.=
+5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1=
+.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.=
+53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5=
+z"></path></svg></a>Part 2: FromSql()</h2>
+
+<ul>
+<li>Set <code>FromSql</code> as the startup project</li>
+<li>Open the <code>Demo.FromSql</code> database on your LocalDb instance an=
+d show the <code>dbo.SearchBlogs</code> TVF under <code>Programability -&gt=
+; Functions -&gt; Table Valued Functions</code> (I usually use SQL Server=
+ Management Studio)</li>
+<li>Start some form of profiling (I use SQL Server Profiler that comes with=
+ SQL Management Studio)</li>
+<li>Open <code>Program.cs</code> and relace the TODO with the following cod=
+e</li>
+</ul>
+
+<pre><code>var blogs =3D db.Blogs.FromSql("SELECT * FROM dbo.SearchBlogs(@p=
+0)", term);
+</code></pre>
+
+<ul>
+<li>Run the app and show that exactly the provided SQL is run</li>
+<li>Replace the query with the following code</li>
+</ul>
+
+<pre><code>var blogs =3D db.Blogs.FromSql("SELECT * FROM dbo.SearchBlogs(@p=
+0)", term)
+    .OrderBy(b =3D&gt; b.Url)
+    .Select(b =3D&gt; b.Url);
+</code></pre>
+
+<ul>
+<li>Run the app and show that the original SQL is composed upon</li>
+</ul>
+</article>
+  </div>
+
+</div>
+
+<button type=3D"button" data-facebox=3D"#jump-to-line" data-facebox-class=
+=3D"linejump" data-hotkey=3D"l" class=3D"hidden">Jump to Line</button>
+<div id=3D"jump-to-line" style=3D"display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset=3D"UTF-8" action=3D"=
+" class=3D"js-jump-to-line-form" method=3D"get"><div style=3D"margin:0;padd=
+ing:0;display:inline"><input name=3D"utf8" value=3D"=E2=9C=93" type=3D"hidd=
+en"></div>
+    <input class=3D"form-control linejump-input js-jump-to-line-field" plac=
+eholder=3D"Jump to line=E2=80=A6" aria-label=3D"Jump to line" autofocus=3D"=
+" type=3D"text">
+    <button type=3D"submit" class=3D"btn">Go</button>
+</form></div>
+
+  </div>
+  <div class=3D"modal-backdrop"></div>
+</div>
+
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class=3D"container site-footer-container">
+  <div class=3D"site-footer" role=3D"contentinfo">
+    <ul class=3D"site-footer-links right">
+        <li><a href=3D"https://status.github.com/" data-ga-click=3D"Footer,=
+ go to status, text:status">Status</a></li>
+      <li><a href=3D"https://developer.github.com/" data-ga-click=3D"Footer=
+, go to api, text:api">API</a></li>
+      <li><a href=3D"https://training.github.com/" data-ga-click=3D"Footer,=
+ go to training, text:training">Training</a></li>
+      <li><a href=3D"https://shop.github.com/" data-ga-click=3D"Footer, go=
+ to shop, text:shop">Shop</a></li>
+        <li><a href=3D"https://github.com/blog" data-ga-click=3D"Footer, go=
+ to blog, text:blog">Blog</a></li>
+        <li><a href=3D"https://github.com/about" data-ga-click=3D"Footer,=
+ go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href=3D"https://github.com/" aria-label=3D"Homepage" class=3D"site-f=
+ooter-mark" title=3D"GitHub">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-mark-github" heigh=
+t=3D"24" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"24"><path d=3D"M8=
+ 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.3=
+8 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0=
+.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82=
+ 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-=
+0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0=
+ 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53=
+-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.=
+82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.0=
+1 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.5=
+8 12.42 0 8 0z"></path></svg>
+</a>
+    <ul class=3D"site-footer-links">
+      <li>=C2=A9 2016 <span title=3D"0.08094s from github-fe134-cp1-prd.iad=
+.github.net">GitHub</span>, Inc.</li>
+        <li><a href=3D"https://github.com/site/terms" data-ga-click=3D"Foot=
+er, go to terms, text:terms">Terms</a></li>
+        <li><a href=3D"https://github.com/site/privacy" data-ga-click=3D"Fo=
+oter, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href=3D"https://github.com/security" data-ga-click=3D"Footer=
+, go to security, text:security">Security</a></li>
+        <li><a href=3D"https://github.com/contact" data-ga-click=3D"Footer,=
+ go to contact, text:contact">Contact</a></li>
+        <li><a href=3D"https://help.github.com/" data-ga-click=3D"Footer,=
+ go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+   =20
+   =20
+
+    <div id=3D"ajax-error-message" class=3D"ajax-error-message flash flash-=
+error">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-alert" height=3D"1=
+6" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M15.72 12.=
+5l-6.85-11.98C8.69 0.21 8.36 0.02 8 0.02s-0.69 0.19-0.87 0.5l-6.85 11.98c-0=
+.18 0.31-0.18 0.69 0 1C0.47 13.81 0.8 14 1.15 14h13.7c0.36 0 0.69-0.19 0.86=
+-0.5S15.89 12.81 15.72 12.5zM9 12H7V10h2V12zM9 9H7V5h2V9z"></path></svg>
+      <button type=3D"button" class=3D"flash-close js-flash-close js-ajax-e=
+rror-dismiss" aria-label=3D"Dismiss error">
+        <svg aria-hidden=3D"true" class=3D"octicon octicon-x" height=3D"16"=
+ version=3D"1.1" viewBox=3D"0 0 12 16" width=3D"12"><path d=3D"M7.48 8l3.75=
+ 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48=
+ 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+     =20
+      <script crossorigin=3D"anonymous" integrity=3D"sha256-XLbxxvkhG/7tO/x=
+1ltihs8X0u4QdUxhkWgqv/0i1sz0=3D" src=3D"urn:snapshot-38F603D9:https://asset=
+s-cdn.github.com/assets/frameworks-5cb6f1c6f9211bfeed3bfc7596d8a1b3c5f4bb84=
+1d5318645a0aafff48b5b33d.js"></script>
+      <script async=3D"async" crossorigin=3D"anonymous" integrity=3D"sha256=
+-lUIPfe4JTvhL6U49gGrVtSN0AAXCoyb6kuEZNfD3TE4=3D" src=3D"urn:snapshot-BDCF6C=
+BF:https://assets-cdn.github.com/assets/github-95420f7dee094ef84be94e3d806a=
+d5b523740005c2a326fa92e11935f0f74c4e.js"></script>
+     =20
+     =20
+     =20
+     =20
+     =20
+     =20
+    <div class=3D"js-stale-session-flash stale-session-flash flash flash-wa=
+rn flash-banner hidden">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-alert" height=3D"1=
+6" version=3D"1.1" viewBox=3D"0 0 16 16" width=3D"16"><path d=3D"M15.72 12.=
+5l-6.85-11.98C8.69 0.21 8.36 0.02 8 0.02s-0.69 0.19-0.87 0.5l-6.85 11.98c-0=
+.18 0.31-0.18 0.69 0 1C0.47 13.81 0.8 14 1.15 14h13.7c0.36 0 0.69-0.19 0.86=
+-0.5S15.89 12.81 15.72 12.5zM9 12H7V10h2V12zM9 9H7V5h2V9z"></path></svg>
+      <span class=3D"signed-in-tab-flash">You signed in with another tab or=
+ window. <a href=3D"">Reload</a> to refresh your session.</span>
+      <span class=3D"signed-out-tab-flash">You signed out in another tab or=
+ window. <a href=3D"">Reload</a> to refresh your session.</span>
+    </div>
+    <div class=3D"facebox" id=3D"facebox" style=3D"display:none;">
+  <div class=3D"facebox-popup">
+    <div class=3D"facebox-content" role=3D"dialog" aria-labelledby=3D"faceb=
+ox-header" aria-describedby=3D"facebox-description">
+    </div>
+    <button type=3D"button" class=3D"facebox-close js-facebox-close" aria-l=
+abel=3D"Close modal">
+      <svg aria-hidden=3D"true" class=3D"octicon octicon-x" height=3D"16"=
+ version=3D"1.1" viewBox=3D"0 0 12 16" width=3D"12"><path d=3D"M7.48 8l3.75=
+ 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48=
+ 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg>
+    </button>
+  </div>
+</div>
+
+ =20
+
+
+</body></html>
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://avatars1.githubusercontent.com/u/1929839?v=3&s=40
+
+/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAx
+NDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIACgAKAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAA
+AAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGh
+CCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hp
+anN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV
+1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQAC
+AQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXx
+FxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqS
+k5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T1
+9vf4+fr/2gAMAwEAAhEDEQA/APG5IEQj1rQs74WmEjUO/ueBWZNFOQZSpCqM0aXDJe3iQR53M3Ws
+umprbXQ7KzmWZdl7HGyyAjIB4qW/8PQx2UtxZNvaABpUDA/If4h/Wtq08HP5UIV2kZsZz2rohpo0
+y7gSTDLIDA2RwRjp+VarlcbWCUZxe55GL9oI2jdd8ZHeoft1v/zxFW9RsxY6ld2UykNC7Jz3weD+
+VUvLh9qztYL3Oy1Lw2y+Hb2REJZISw/Dmud8LW5t4xcpAzysSM4zjnj+VejSalNJZulv5fmFSAJF
+JU+xrk/D0V3pV4tpchFcfMVRsjDHj9c1FRaG9C7lqdtoOrXV6txClvi4tlBGRwc5/wAK3ZYNS1Xw
+vNPcRwC5gHnADr8oJx+OMfjXN+D71rfXL53EZWYbSN3zD2xXZQSy2Njfu82VSNypZdp6HHFaU/hu
+VVieP+PESbVDeIhUvCm8Z5B2/wD6q4zPua9C1uFbuCViAGIya5T+zF9qpvU51A7OK4SNAScAVgS3
+Ex1l7tFILHG09wO1aT/6is4/8fcf1NPlTjqDm1LQ6bQb4wXvmTRN8zZBBxmuu8U6ibLR7S6jADS3
+CKyMc7kwxIP5CuLs/vwf71dF45/5F/T/APruP/QGp4X4otFYhtppmbqIs5wGjgjkjnBMeGwJPVQR
+0cdCp/Csz+zIv+gJL/39b/GrFv8A8gjQ/wDr+l/nXR19D7KnPWUVf0PIVScVZM//2Q==
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://avatars2.githubusercontent.com/u/4741851?v=3&s=40
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAKAAo
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+8N1nxPDqAaOZ4I7GN8GVyDnbg4VfbjP1OK7T4C/AGT40eI3urjUHtvCdq4WWZB80hwCI4+5fHfHA
+5J6Z8k/s6B4nubyPzLdjiC2IKtnOMkA9PbODmvqT4J+Lm8I+G9M0jSIZZXELSziHAKtIzMCeDnC7
+V+g5r5hrljeO5eAw8cRWUZbI6rxh+zv8OdNufsMF5qWmWipsaXzPO8o9SxzjJ9geK+c/jx8CZPh1
+FFqNlqMetaNPhIb1I/L289GBJwegzn2r2XxV4S8TeJr06lqGqSXFrC25bWRNqlf7pxjisDxX4gsr
+TwnqWk3UTC1kUsRcfMsKgfwc5wMdDnnFFOdWlJNo+mxGXUFBygrM+RL3T4H1oRyTeWwkIVVIXucZ
+zx+tFa1vpttq+rTzXcZNqJGcSDIxz9Rjr19qK9KddQfLdnyLk+Z6ljUZJNR1QSWczBnAk2RuSkZO
+SQOB0z0r69+AHgy80Twfba3pF9BJd3mnp5Ml/wDvI/MLt5oGOrKQFAr5E0izfUwD5Nu8RkA2tFhQ
+PYjHP5dTX038A/E1xpN3LoLea1pawi6COWaONi4BAyMAnIPHUk0OPKlfc9PLpxp1eWX2tPTqeu6n
+D42tPByTXMlnNqVxdNCv7vCbAuc46dT09K8Q+OOj3beGJrmZo7edYVV44MfvHL4wuemR9a9VvPEO
+t33irzXPlQLljZ+czKAVChgpHHAzx3Jrkfi78KfH/jbRl1/QrNdS8NWrieSG1w9wrAspYrjcQMHo
+DjqRWsaftNLH0eMnGnSfM730+8+UNIE1408UJMSod0kkvII9W9OntRXoN/8AD3VjYrG2k3/h7TmU
+S7ZIGikmBG4E55w3ByRgg0VlOhCUrvT5HynsFLU+zf2dP+CeENloltqHxHnkE/mF49HttqsFzx50
+gzyfReR/eB4Hrn7SHhbRfDPwsttM0bSLXR9MF4I/KsoVjUuAxBOByeG5PPJoor1FCNpaFYVcteFu
+58nWnha41W6ijjurm6ldgiIr8n2zX2p8EPDq+F/CsFizDzIVXkHncSSfwzRRXXhKUIwlKK1O7M6s
+nJU3tueyT2NtqthJbXkMV5bzLtkimQOjg9iDwRRRRXM1qeSnof/Z
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://assets-cdn.github.com/images/icons/emoji/unicode/1f41b.png
+
+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
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://avatars0.githubusercontent.com/u/4741851?v=3&s=48
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAMAAw
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+8b1vX2vPO0+K3EgACE/8s41IwPoeM4/+vWCPC+o+IdXs9L0H9/cXkmxY4o97O5IxjAJx04JwOe1Y
+ZsZ7y5lsYma3jyZJLhlG1cHqeRk/j3717l+y3p9v4JvtW8ReaZTGEt7aaR9v39xlPGQMBRznoxr5
+nl5Vz3McPR9tUjTvueueHv2LND8M+ERc6/rdz/wkTRZlFrKqW1sSOjZByeecEewNctq/7JsXiC0l
+uvD3iWyluolOLK/3oz44JyAeuD+BHPevR/iN8YLwaZbxaPptvqUZX92UkJWM+uzpn615N4e1rxHL
+fNe6jdSWF9AWMELqvlsCc/M3Yj2rnVSfxH2P9l0HFJrU+bPFvg288La9Jpt9bmK4iZhKCeR2/Ljj
+6964qPSze6iv73Y5GdkQ3foP8+1fWPx/hsfElvYas3z6xbbFmdQNrAkKeR1GWyAenNfLel6FLrt6
+jQXLRSJyWAIwffOM/hXs0q3NDnbsfN4ui8PPkvodRq+qvoivpkNq4hyzeahxuXcRuB57YOK9D+D9
+5d6wlpbW1lKNNF/HGCFwJZHAznHXCgn2zXlMkdxdvEstom2FVVoIWXcRx1PPJwa+kP2WNe0yyhvN
+Kv4vsFxHdx3tgsq5MjbQrxkn7pwF47896yVNOKdvxHl8Y+3jzO2/39Ee1RXXgfTdSh0q11SO4vRt
+QogO0N0xkj1rG8X/ANhajqZ0+3vIvtoyPIbhmPoK7yDSPDVjdWviLUNOhtI4bhG3QQlgrbuDge/4
+Vx8+h6FqNxda1bxxSied5FlC9Ru6+3T9K15INH2t58p8tfFq/ezxp0bTY+0MG8tTkqjHA9vX8K89
+08w2NoCy7JyP9YBkAc9e35+ter/Hi4g1PVItNsyrz26Pct5LBiZJG+6P9rHb6elea2mnL4asGuNV
+IW5cnyrSQlmLHseCF/8ArH1qXQfI4o+SxsOes7O9ihomlC8t5pGR1UtguuVYe3AxXuXwz+HfjHXr
+ywk8JaJf6msM8UlxcRxFYIYwQSHcjaMgZ69h619a/s2f8E/NP8LaQL/4hNLd3TSF4dGgnxHAv/TR
+0OWbr90jHqc8fVOs6Za6B4O1DSNIsYrOyg0+RYbe3QIq/I2AAK7/AGLn7r2PNhe6+R8CeINQGp6e
+8a37Rx2vyvbIy5J57MP5Uzww1lClvpqXu9bqVYSibQ6AsATgDHGc1Q13R7PUdWmcgoWc9OO/euy+
+Enw4W88Qw36QbLW2cP5jcl3HQD6Hn8Kilh5ymo2Vj7avXjTpNtnP+Nf2B9etDZ6v8Pbwa3cTMVks
+r+ZYZIiWwXDH5XUAk9m6cGuL1/8AYy+JHhq3u9R1fw0+oiHduntmjmVBwNyqrFiOpzgYyelfpV4Y
+2JZWKhlLYOSp6AmuxQLsAX7uK7q9GKlZHx0Ksluf/9k=
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-A7164225:https://assets-cdn.github.com/assets/frameworks-73b6e7254b4ff47628bc2700deeaccfe68ae11f3b55062485e2e586d8a58246a.css
+
+/* Effective stylesheet produced by snapshot save */
+html { font-family: sans-serif; }
+body { margin: 0px; }
+article, aside, details, figcaption, figure, footer, header, main, menu, na=
+v, section, summary { display: block; }
+audio:not([controls]) { display: none; height: 0px; }
+a { background-color: transparent; }
+a:active, a:hover { outline-width: 0px; }
+b, strong { font-weight: inherit; }
+b, strong { font-weight: bolder; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+img { border-style: none; }
+svg:not(:root) { overflow: hidden; }
+code, kbd, pre, samp { font-family: monospace,monospace; font-size: 1em; }
+button, input, select, textarea { font: inherit; margin: 0px; }
+button, input { overflow: visible; }
+button, select { text-transform: none; }
+button, html [type=3D"button"], [type=3D"reset"], [type=3D"submit"] {  }
+button::-moz-focus-inner, [type=3D"button"]::-moz-focus-inner, [type=3D"res=
+et"]::-moz-focus-inner, [type=3D"submit"]::-moz-focus-inner { border-style:=
+ none; padding: 0px; }
+button:-moz-focusring, [type=3D"button"]:-moz-focusring, [type=3D"reset"]:-=
+moz-focusring, [type=3D"submit"]:-moz-focusring { outline: 1px dotted butto=
+ntext; }
+[type=3D"checkbox"], [type=3D"radio"] { box-sizing: border-box; padding: 0p=
+x; }
+table { border-spacing: 0px; border-collapse: collapse; }
+td, th { padding: 0px; }
+button { cursor: pointer; }
+* { box-sizing: border-box; }
+input, select, textarea, button { font: 13px/1.4 Helvetica,arial,nimbussans=
+l,liberationsans,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Em=
+oji","Segoe UI Symbol"; }
+body { font: 13px/1.4 Helvetica,arial,nimbussansl,liberationsans,freesans,c=
+lean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; col=
+or: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+a { color: rgb(64, 120, 192); text-decoration: none; }
+a:hover, a:active { text-decoration: underline; }
+hr::before, .rule::before { display: table; content: ""; }
+hr::after, .rule::after { display: table; clear: both; content: ""; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0px; margin-bottom: 0px; line-height:=
+ 1.5; }
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+p { margin-top: 0px; margin-bottom: 10px; }
+ul, ol { padding-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+tt, code { font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;=
+ font-size: 12px; }
+pre { margin-top: 0px; margin-bottom: 0px; font: 12px Consolas,"Liberation=
+ Mono",Menlo,Courier,monospace; }
+.container { width: 980px; margin-right: auto; margin-left: auto; }
+.container::before { display: table; content: ""; }
+.container::after { display: table; clear: both; content: ""; }
+.columns::before { display: table; content: ""; }
+.columns::after { display: table; clear: both; content: ""; }
+label { font-size: 13px; font-weight: bold; }
+.form-control, .form-select { min-height: 34px; padding: 7px 8px; font-size=
+: 13px; color: rgb(51, 51, 51); vertical-align: middle; background-color:=
+ rgb(255, 255, 255); background-repeat: no-repeat; background-position: rig=
+ht 8px center; border: 1px solid rgb(221, 221, 221); border-radius: 3px; ou=
+tline: medium none; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset; }
+.form-control.focus, .form-control:focus, .form-select.focus, .form-select:=
+focus { border-color: rgb(81, 167, 232); outline: medium none; box-shadow:=
+ 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(81, 167, 232, 0.5=
+); }
+*::-moz-placeholder { color: rgb(153, 153, 153); }
+.hfields::before { display: table; content: ""; }
+.hfields::after { display: table; clear: both; content: ""; }
+.form-actions::before { display: table; content: ""; }
+.form-actions::after { display: table; clear: both; content: ""; }
+.form-select:not([multiple]) { height: 34px; }
+.select-sm:not([multiple]) { height: 26px; min-height: 26px; }
+.form-group.required dt label::after { padding-left: 5px; color: rgb(189,=
+ 44, 0); content: "*"; }
+.form-group.warn .warning::after, .form-group.warn .warning::before, .form-=
+group.warn .error::after, .form-group.warn .error::before, .form-group.erro=
+red .warning::after, .form-group.errored .warning::before, .form-group.erro=
+red .error::after, .form-group.errored .error::before { position: absolute;=
+ bottom: 100%; left: 10px; z-index: 15; width: 0px; height: 0px; pointer-ev=
+ents: none; content: " "; border: medium solid transparent; }
+.form-group.warn .warning::after, .form-group.warn .error::after, .form-gro=
+up.errored .warning::after, .form-group.errored .error::after { border-widt=
+h: 5px; }
+.form-group.warn .warning::before, .form-group.warn .error::before, .form-g=
+roup.errored .warning::before, .form-group.errored .error::before { margin-=
+left: -1px; border-width: 6px; }
+.form-group.warn .warning::after { border-bottom-color: rgb(255, 249, 234);=
+ }
+.form-group.warn .warning::before { border-bottom-color: rgb(223, 216, 194)=
+; }
+.form-group.errored .error::after { border-bottom-color: rgb(252, 222, 222)=
+; }
+.form-group.errored .error::before { border-bottom-color: rgb(210, 178, 178=
+); }
+.btn { position: relative; display: inline-block; padding: 6px 12px; font-s=
+ize: 13px; font-weight: bold; line-height: 20px; color: rgb(51, 51, 51); wh=
+ite-space: nowrap; vertical-align: middle; cursor: pointer; -moz-user-selec=
+t: none; background-color: rgb(238, 238, 238); background-image: linear-gra=
+dient(rgb(252, 252, 252), rgb(238, 238, 238)); border: 1px solid rgb(213,=
+ 213, 213); border-radius: 3px; }
+.btn i { font-style: normal; font-weight: 500; opacity: 0.6; }
+.btn .octicon { vertical-align: text-top; }
+.btn:focus { text-decoration: none; border-color: rgb(81, 167, 232); outlin=
+e: medium none; box-shadow: 0px 0px 5px rgba(81, 167, 232, 0.5); }
+.btn:focus:hover, .btn.selected:focus { border-color: rgb(81, 167, 232); }
+.btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is=
+-active { text-decoration: none; background-color: rgb(221, 221, 221); back=
+ground-image: linear-gradient(rgb(238, 238, 238), rgb(221, 221, 221)); bord=
+er-color: rgb(204, 204, 204); }
+.btn:active, .btn.selected, .btn.zeroclipboard-is-active { background-color=
+: rgb(220, 220, 220); background-image: none; border-color: rgb(181, 181,=
+ 181); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) inset; }
+.btn:disabled, .btn:disabled:hover, .btn.disabled, .btn.disabled:hover { co=
+lor: rgba(102, 102, 102, 0.5); cursor: default; background-color: rgba(229,=
+ 229, 229, 0.5); background-image: none; border-color: rgba(197, 197, 197,=
+ 0.5); box-shadow: none; }
+.btn-with-count { float: left; border-top-right-radius: 0px; border-bottom-=
+right-radius: 0px; }
+.btn-sm { padding: 2px 10px; }
+.social-count { float: left; padding: 2px 7px; font-size: 11px; font-weight=
+: bold; line-height: 20px; color: rgb(51, 51, 51); vertical-align: middle;=
+ background-color: rgb(255, 255, 255); border-width: 1px 1px 1px 0px; borde=
+r-style: solid solid solid none; border-color: rgb(221, 221, 221) rgb(221,=
+ 221, 221) rgb(221, 221, 221) -moz-use-text-color; -moz-border-top-colors:=
+ none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -mo=
+z-border-left-colors: none; border-image: none; border-top-right-radius: 3p=
+x; border-bottom-right-radius: 3px; }
+.social-count:hover, .social-count:active { text-decoration: none; }
+.social-count:hover { color: rgb(64, 120, 192); cursor: pointer; }
+.btn-link { display: inline-block; padding: 0px; font-size: inherit; color:=
+ rgb(64, 120, 192); white-space: nowrap; cursor: pointer; -moz-user-select:=
+ none; background-color: transparent; border: 0px none; }
+.btn-link:hover, .btn-link:focus { text-decoration: underline; }
+.btn-link:focus { outline: medium none; }
+.btn-group { display: inline-block; vertical-align: middle; }
+.btn-group::before { display: table; content: ""; }
+.btn-group::after { display: table; clear: both; content: ""; }
+.btn-group .btn { position: relative; float: left; }
+.btn-group .btn:not(:first-child):not(:last-child) { border-radius: 0px; }
+.btn-group .btn:first-child:not(:last-child) { border-top-right-radius: 0px=
+; border-bottom-right-radius: 0px; }
+.btn-group .btn:last-child:not(:first-child) { border-top-left-radius: 0px;=
+ border-bottom-left-radius: 0px; }
+.btn-group .btn:hover, .btn-group .btn:active, .btn-group .btn.selected {=
+ z-index: 2; }
+.btn-group .btn:focus { z-index: 3; }
+.btn-group .btn + .btn { margin-left: -1px; }
+.flash { position: relative; padding: 15px; font-size: 14px; line-height:=
+ 1.5; color: rgb(34, 68, 102); background-color: rgb(226, 238, 249); border=
+: 1px solid rgb(186, 198, 211); border-radius: 3px; }
+.flash-close { float: right; width: 34px; height: 44px; margin: -11px; line=
+-height: 40px; color: inherit; text-align: center; cursor: pointer; backgro=
+und: transparent none repeat scroll 0% 0%; border: 0px none; opacity: 0.6; }
+.flash-close:hover { opacity: 1; }
+.flash-warn { color: rgb(76, 74, 66); background-color: rgb(255, 249, 234);=
+ border-color: rgb(223, 216, 194); }
+.flash-error { color: rgb(153, 17, 17); background-color: rgb(252, 222, 222=
+); border-color: rgb(210, 178, 178); }
+.avatar { display: inline-block; overflow: hidden; line-height: 1; vertical=
+-align: middle; border-radius: 3px; }
+.counter { display: inline-block; padding: 2px 5px; font-size: 11px; font-w=
+eight: bold; line-height: 1; color: rgb(102, 102, 102); background-color:=
+ rgb(238, 238, 238); border-radius: 20px; }
+.menu-item:first-child::before { border-top-left-radius: 2px; }
+.menu-item:last-child::before { border-bottom-left-radius: 2px; }
+.menu-item.selected::before { position: absolute; top: 0px; bottom: 0px; le=
+ft: 0px; width: 2px; content: ""; background-color: rgb(210, 105, 17); }
+.tooltipped { position: relative; }
+.tooltipped::after { position: absolute; z-index: 1000000; display: none;=
+ padding: 5px 8px; font: 11px/1.5 Helvetica,arial,nimbussansl,liberationsan=
+s,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI=
+ Symbol"; color: rgb(255, 255, 255); text-align: center; text-decoration:=
+ none; text-shadow: none; text-transform: none; letter-spacing: normal; wor=
+d-wrap: break-word; white-space: pre; pointer-events: none; content: attr(a=
+ria-label); background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%; border=
+-radius: 3px; opacity: 0; }
+.tooltipped::before { position: absolute; z-index: 1000001; display: none;=
+ width: 0px; height: 0px; color: rgba(0, 0, 0, 0.8); pointer-events: none;=
+ content: ""; border: 5px solid transparent; opacity: 0; }
+@keyframes tooltip-appear {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.tooltipped:hover::before, .tooltipped:hover::after, .tooltipped:active::be=
+fore, .tooltipped:active::after, .tooltipped:focus::before, .tooltipped:foc=
+us::after { display: inline-block; text-decoration: none; animation-name:=
+ tooltip-appear; animation-duration: 0.1s; animation-fill-mode: forwards;=
+ animation-timing-function: ease-in; animation-delay: 0.4s; }
+.tooltipped-no-delay:hover::before, .tooltipped-no-delay:hover::after, .too=
+ltipped-no-delay:active::before, .tooltipped-no-delay:active::after, .toolt=
+ipped-no-delay:focus::before, .tooltipped-no-delay:focus::after { opacity:=
+ 1; animation: 0s ease 0s normal none 1 running none; }
+.tooltipped-multiline:hover::after, .tooltipped-multiline:active::after, .t=
+ooltipped-multiline:focus::after { display: table-cell; }
+.tooltipped-s::after, .tooltipped-se::after, .tooltipped-sw::after { top:=
+ 100%; right: 50%; margin-top: 5px; }
+.tooltipped-s::before, .tooltipped-se::before, .tooltipped-sw::before { top=
+: auto; right: 50%; bottom: -5px; margin-right: -5px; border-bottom-color:=
+ rgba(0, 0, 0, 0.8); }
+.tooltipped-se::after { right: auto; left: 50%; margin-left: -15px; }
+.tooltipped-sw::after { margin-right: -15px; }
+.tooltipped-n::after, .tooltipped-ne::after, .tooltipped-nw::after { right:=
+ 50%; bottom: 100%; margin-bottom: 5px; }
+.tooltipped-n::before, .tooltipped-ne::before, .tooltipped-nw::before { top=
+: -5px; right: 50%; bottom: auto; margin-right: -5px; border-top-color: rgb=
+a(0, 0, 0, 0.8); }
+.tooltipped-ne::after { right: auto; left: 50%; margin-left: -15px; }
+.tooltipped-nw::after { margin-right: -15px; }
+.tooltipped-s::after, .tooltipped-n::after { transform: translateX(50%); }
+.tooltipped-w::after { right: 100%; bottom: 50%; margin-right: 5px; transfo=
+rm: translateY(50%); }
+.tooltipped-w::before { top: 50%; bottom: 50%; left: -5px; margin-top: -5px=
+; border-left-color: rgba(0, 0, 0, 0.8); }
+.tooltipped-e::after { bottom: 50%; left: 100%; margin-left: 5px; transform=
+: translateY(50%); }
+.tooltipped-e::before { top: 50%; right: -5px; bottom: 50%; margin-top: -5p=
+x; border-right-color: rgba(0, 0, 0, 0.8); }
+.tooltipped-multiline::after { width: -moz-max-content; max-width: 250px;=
+ word-wrap: normal; white-space: pre-line; border-collapse: separate; }
+.tooltipped-multiline.tooltipped-s::after, .tooltipped-multiline.tooltipped=
+-n::after { right: auto; left: 50%; transform: translateX(-50%); }
+.tooltipped-multiline.tooltipped-w::after, .tooltipped-multiline.tooltipped=
+-e::after { right: 100%; }
+@media not all {
+  .tooltipped-multiline::after { width: 250px; }
+}
+.tooltipped-sticky::before, .tooltipped-sticky::after { display: inline-blo=
+ck; }
+.tooltipped-sticky.tooltipped-multiline::after { display: table-cell; }
+.css-truncate.css-truncate-target, .css-truncate .css-truncate-target { dis=
+play: inline-block; max-width: 125px; overflow: hidden; text-overflow: elli=
+psis; white-space: nowrap; vertical-align: top; }
+.markdown-body { font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,f=
+reesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";=
+ font-size: 16px; line-height: 1.6; word-wrap: break-word; }
+.markdown-body::before { display: table; content: ""; }
+.markdown-body::after { display: table; clear: both; content: ""; }
+.markdown-body > :first-child { margin-top: 0px ! important; }
+.markdown-body > :last-child { margin-bottom: 0px ! important; }
+.markdown-body a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-body .anchor { display: inline-block; padding-right: 2px; margin-=
+left: -18px; }
+.markdown-body .anchor:focus { outline: medium none; }
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4,=
+ .markdown-body h5, .markdown-body h6 { margin-top: 1em; margin-bottom: 16p=
+x; font-weight: bold; line-height: 1.4; }
+.markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link, .markdown=
+-body h3 .octicon-link, .markdown-body h4 .octicon-link, .markdown-body h5=
+ .octicon-link, .markdown-body h6 .octicon-link { color: rgb(0, 0, 0); vert=
+ical-align: middle; visibility: hidden; }
+.markdown-body h1:hover .anchor, .markdown-body h2:hover .anchor, .markdown=
+-body h3:hover .anchor, .markdown-body h4:hover .anchor, .markdown-body h5:=
+hover .anchor, .markdown-body h6:hover .anchor { text-decoration: none; }
+.markdown-body h1:hover .anchor .octicon-link, .markdown-body h2:hover .anc=
+hor .octicon-link, .markdown-body h3:hover .anchor .octicon-link, .markdown=
+-body h4:hover .anchor .octicon-link, .markdown-body h5:hover .anchor .octi=
+con-link, .markdown-body h6:hover .anchor .octicon-link { visibility: visib=
+le; }
+.markdown-body h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height:=
+ 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-body h1 .anchor { line-height: 1; }
+.markdown-body h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height:=
+ 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-body h2 .anchor { line-height: 1; }
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-b=
+ody ol, .markdown-body dl, .markdown-body table, .markdown-body pre { margi=
+n-top: 0px; margin-bottom: 16px; }
+.markdown-body ul, .markdown-body ol { padding-left: 2em; }
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown=
+-body ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-body li > p { margin-top: 16px; }
+.markdown-body blockquote > :first-child { margin-top: 0px; }
+.markdown-body blockquote > :last-child { margin-bottom: 0px; }
+.markdown-body table { display: block; width: 100%; overflow: auto; word-br=
+eak: keep-all; }
+.markdown-body table th { font-weight: bold; }
+.markdown-body table th, .markdown-body table td { padding: 6px 13px; borde=
+r: 1px solid rgb(221, 221, 221); }
+.markdown-body table tr { background-color: rgb(255, 255, 255); border-top:=
+ 1px solid rgb(204, 204, 204); }
+.markdown-body table tr:nth-child(2n) { background-color: rgb(248, 248, 248=
+); }
+.markdown-body code, .markdown-body tt { padding: 0.2em 0px; margin: 0px;=
+ font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px;=
+ }
+.markdown-body code::before, .markdown-body code::after, .markdown-body tt:=
+:before, .markdown-body tt::after { letter-spacing: -0.2em; content: "=C2=
+=A0"; }
+.markdown-body pre > code { padding: 0px; margin: 0px; font-size: 100%; wor=
+d-break: normal; white-space: pre; background: transparent none repeat scro=
+ll 0% 0%; border: 0px none; }
+.markdown-body .highlight pre, .markdown-body pre { padding: 16px; overflow=
+: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247,=
+ 247); border-radius: 3px; }
+.markdown-body pre { word-wrap: normal; }
+.markdown-body pre code, .markdown-body pre tt { display: inline; max-width=
+: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inher=
+it; word-wrap: normal; background-color: transparent; border: 0px none; }
+.markdown-body pre code::before, .markdown-body pre code::after, .markdown-=
+body pre tt::before, .markdown-body pre tt::after { content: normal; }
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade-up {
+  0% { opacity: 0.8; transform: translateY(100%); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+@keyframes fade-down {
+  0% { opacity: 1; transform: translateY(0px); }
+  100% { opacity: 0.5; transform: translateY(100%); }
+}
+@keyframes grow-x {
+  100% { width: 100%; }
+}
+@keyframes shrink-x {
+  100% { width: 0%; }
+}
+@keyframes scale-in {
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes pulse {
+  0% { opacity: 0.3; }
+  10% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+.muted-link { color: rgb(118, 118, 118) ! important; }
+.muted-link:hover { color: rgb(64, 120, 192) ! important; text-decoration:=
+ none; }
+.hidden, .d-none { display: none ! important; }
+.clearfix::before { display: table; content: ""; }
+.clearfix::after { display: table; clear: both; content: ""; }
+.right, .float-right { float: right ! important; }
+.left, .float-left { float: left ! important; }
+.table-list-header::before { display: table; content: ""; }
+.table-list-header::after { display: table; clear: both; content: ""; }
+.file-commit-form .commit-form::after, .file-commit-form .commit-form::befo=
+re { position: absolute; top: 11px; right: 100%; left: -16px; display: bloc=
+k; width: 0px; height: 0px; pointer-events: none; content: " "; border-colo=
+r: transparent; border-style: solid solid outset; }
+.file-commit-form .commit-form::after { margin-top: 1px; margin-left: 2px;=
+ border-width: 7px; border-right-color: rgb(255, 255, 255); }
+.file-commit-form .commit-form::before { border-width: 8px; border-right-co=
+lor: rgb(221, 221, 221); }
+.ajax-error-message { position: fixed; top: -200px; left: 50%; z-index: 999=
+9; display: none; width: 974px; margin: 0px 3px 0px -487px; transition: top=
+ 0.5s ease-in-out 0s; }
+.ajax-error-message > .octicon-alert { vertical-align: text-top; }
+.breadcrumb { margin-bottom: 10px; font-size: 18px; color: rgb(118, 118, 11=
+8); }
+.breadcrumb .separator::before, .breadcrumb .separator::after { content: "=
+ "; }
+.breadcrumb strong.final-path { color: rgb(51, 51, 51); }
+.breadcrumb .repo-root { font-weight: bold; }
+.starring-container .unstarred, .starring-container.on .starred { display:=
+ block; }
+.starring-container.on .unstarred, .starring-container .starred { display:=
+ none; }
+.btn-octicon { display: inline-block; padding: 5px; margin-left: 5px; line-=
+height: 1; color: rgb(118, 118, 118); vertical-align: middle; background:=
+ transparent none repeat scroll 0% 0%; border: 0px none; outline: medium no=
+ne; }
+.btn-octicon:hover { color: rgb(64, 120, 192); }
+.btn-octicon-danger:hover { color: rgb(189, 44, 0); }
+.capped-card::before { display: table; content: ""; }
+.capped-card::after { display: table; clear: both; content: ""; }
+.capped-card:nth-child(2n+1) { margin-left: 0px; }
+.capped-card:nth-child(2n) { margin-right: 0px; }
+.capped-card-content::before { display: table; content: ""; }
+.capped-card-content::after { display: table; clear: both; content: ""; }
+.container-preview:not(.show-code) .commit-create, .container-preview:not(.=
+show-code) .actions { display: none; }
+.code-list .blob-num::before { content: normal; }
+.previewable-edit .previewable-comment-form::before { display: table; conte=
+nt: ""; }
+.previewable-edit .previewable-comment-form::after { display: table; clear:=
+ both; content: ""; }
+.commit-form::after, .commit-form::before { position: absolute; top: 11px;=
+ right: 100%; left: -16px; display: block; width: 0px; height: 0px; pointer=
+-events: none; content: " "; border-color: transparent; border-style: solid=
+ solid outset; }
+.commit-form::after { margin-top: 1px; margin-left: 2px; border-width: 7px;=
+ border-right-color: rgb(255, 255, 255); }
+.commit-form::before { border-width: 8px; border-right-color: rgb(221, 221,=
+ 221); }
+.commit-form-actions::before { display: table; content: ""; }
+.commit-form-actions::after { display: table; clear: both; content: ""; }
+.commit-tease { position: relative; padding: 10px; margin-bottom: -1px; lin=
+e-height: 20px; color: rgb(104, 119, 125); background-color: rgb(242, 249,=
+ 252); border: 1px solid rgb(201, 230, 242); border-radius: 3px 3px 0px 0px=
+; }
+.commit-tease .muted-link { color: inherit; }
+.commit-tease .message { color: inherit; }
+.commit-tease .avatar { margin-top: -1px; }
+.commit-tease-sha { display: inline-block; font-family: Consolas,"Liberatio=
+n Mono",Menlo,Courier,monospace; color: rgb(68, 80, 85); }
+.commit-tease-contributors { padding: 5px 10px; margin: 10px -10px -10px;=
+ background-color: rgb(255, 255, 255); border-top: 1px solid rgb(201, 230,=
+ 242); border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+.commit-tease-contributors::before { display: table; content: ""; }
+.commit-tease-contributors::after { display: table; clear: both; content:=
+ ""; }
+.commit-tease-contributors .contributors-toggle { float: left; margin-right=
+: 10px; }
+.commits-listing::before { position: absolute; top: 0px; bottom: 0px; left:=
+ 14px; z-index: -1; display: block; width: 2px; content: ""; background-col=
+or: rgb(243, 243, 243); }
+.full-commit .btn-outline:hover:not(:disabled) { color: rgb(64, 120, 192);=
+ border: 1px solid rgb(64, 120, 192); }
+.full-commit .branches-list li::before { padding-right: 6px; font-weight:=
+ normal; content: "+"; }
+.full-commit .branches-list li:first-child::before { padding-right: 0px; co=
+ntent: ""; }
+.full-commit .branches-list li.pull-request::before { margin-left: -8px; co=
+ntent: ""; }
+.commit-build-statuses.active .tooltipped::before, .commit-build-statuses.a=
+ctive .tooltipped::after { display: none; }
+.dropdown-signed-commit .dropdown-menu::after { border-bottom-color: rgb(24=
+9, 249, 249); }
+.dropdown-signed-commit .dropdown-menu-w::after { border-bottom-color: tran=
+sparent; border-left-color: rgb(249, 249, 249); }
+.simple-conversation-list.varied-states > li::before { display: table; cont=
+ent: ""; }
+.simple-conversation-list.varied-states > li::after { display: table; clear=
+: both; content: ""; }
+.diff-table tr:not(:last-child) .line-comments { border-top: 1px solid rgb(=
+238, 238, 238); border-bottom: 1px solid rgb(238, 238, 238); }
+.blob-num::before { content: attr(data-line-number); }
+.blob-code-inner::before { content: ""; }
+.blob-expanded + tr:not(.blob-expanded) .blob-num, .blob-expanded + tr:not(=
+.blob-expanded) .blob-code { border-top: 1px solid rgb(238, 238, 238); }
+tr:not(.blob-expanded) + .blob-expanded .blob-num, tr:not(.blob-expanded)=
+ + .blob-expanded .blob-code { border-top: 1px solid rgb(238, 238, 238); }
+.dropdown { position: relative; }
+.dropdown-caret { display: inline-block; width: 0px; height: 0px; vertical-=
+align: -2px; content: ""; border-width: 4px; border-style: solid; border-co=
+lor: -moz-use-text-color transparent transparent; -moz-border-top-colors:=
+ none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -mo=
+z-border-left-colors: none; border-image: none; }
+.dropdown-menu { position: absolute; top: 100%; left: 0px; z-index: 100; wi=
+dth: 160px; padding-top: 5px; padding-bottom: 5px; margin-top: 2px; backgro=
+und-color: rgb(255, 255, 255); background-clip: padding-box; border: 1px so=
+lid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0px 3px 12px rgba(=
+0, 0, 0, 0.15); }
+.dropdown-menu::before, .dropdown-menu::after { position: absolute; display=
+: inline-block; content: ""; }
+.dropdown-menu::before { border-width: 8px; border-style: solid; border-col=
+or: transparent transparent rgba(0, 0, 0, 0.15); -moz-border-top-colors: no=
+ne; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-b=
+order-left-colors: none; border-image: none; }
+.dropdown-menu::after { border-width: 7px; border-style: solid; border-colo=
+r: transparent transparent rgb(255, 255, 255); -moz-border-top-colors: none=
+; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-bor=
+der-left-colors: none; border-image: none; }
+.dropdown-item { display: block; padding: 4px 10px 4px 15px; overflow: hidd=
+en; color: rgb(51, 51, 51); text-overflow: ellipsis; white-space: nowrap;=
+ }
+.dropdown-item:hover, .dropdown-item.zeroclipboard-is-hover { color: rgb(25=
+5, 255, 255); text-decoration: none; background-color: rgb(64, 120, 192);=
+ }
+.dropdown-signout { width: 100%; text-align: left; background: transparent=
+ none repeat scroll 0% 0%; border: 0px none; }
+.dropdown-divider { height: 1px; margin: 8px 1px; background-color: rgb(229=
+, 229, 229); }
+.dropdown-header { padding: 4px 15px; font-size: 12px; color: rgb(118, 118,=
+ 118); }
+.dropdown-menu-content { display: none; }
+.dropdown-menu-w::before { top: 10px; right: -16px; left: auto; border-colo=
+r: transparent transparent transparent rgba(0, 0, 0, 0.15); }
+.dropdown-menu-w::after { top: 11px; right: -14px; left: auto; border-color=
+: transparent transparent transparent rgb(255, 255, 255); }
+.dropdown-menu-e::before { top: 10px; left: -16px; border-color: transparen=
+t rgba(0, 0, 0, 0.15) transparent transparent; }
+.dropdown-menu-e::after { top: 11px; left: -14px; border-color: transparent=
+ rgb(255, 255, 255) transparent transparent; }
+.dropdown-menu-ne::before, .dropdown-menu-ne::after { top: auto; right: aut=
+o; }
+.dropdown-menu-ne::before { bottom: -8px; left: 9px; border-width: 8px 8px=
+ 0px; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.15) tra=
+nsparent -moz-use-text-color; }
+.dropdown-menu-ne::after { bottom: -7px; left: 10px; border-width: 7px 7px=
+ 0px; border-style: solid solid none; border-color: rgb(255, 255, 255) tran=
+sparent -moz-use-text-color; }
+.dropdown-menu-s::before { top: -16px; right: 50%; transform: translateX(50=
+%); }
+.dropdown-menu-s::after { top: -14px; right: 50%; transform: translateX(50%=
+); }
+.dropdown-menu-sw { right: 0px; left: auto; }
+.dropdown-menu-sw::before { top: -16px; right: 9px; left: auto; }
+.dropdown-menu-sw::after { top: -14px; right: 10px; left: auto; }
+.dropdown-menu-se::before { top: -16px; left: 9px; }
+.dropdown-menu-se::after { top: -14px; left: 10px; }
+.exploregrid::before { display: table; content: ""; }
+.exploregrid::after { display: table; clear: both; content: ""; }
+.facebox { position: absolute; top: 0px; left: 0px; z-index: 100; padding-b=
+ottom: 40px; }
+.facebox-popup { position: relative; background-color: rgb(255, 255, 255);=
+ background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.25); borde=
+r-radius: 5px; box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.4); }
+.facebox-content { width: 455px; padding: 15px; }
+.facebox-content::before { display: table; content: ""; }
+.facebox-content::after { display: table; clear: both; content: ""; }
+.facebox-close { position: absolute; top: 8px; right: 5px; padding: 10px;=
+ cursor: pointer; background-color: transparent; border: 0px none; opacity:=
+ 0.25; }
+.facebox-close:hover { opacity: 1; }
+.facebox-header { padding: 15px; margin: -15px -15px 15px; font-size: 18px;=
+ font-weight: normal; border-bottom: 1px solid rgb(229, 229, 229); }
+.facebox-header:focus { outline: medium none; }
+.facebox-user-list-item { padding: 3px 0px; font-weight: bold; vertical-ali=
+gn: middle; list-style: outside none none; }
+.facebox-user-list-item a { color: rgb(0, 0, 0); }
+.facebox-user-list-item img { margin-right: 5px; vertical-align: middle; bo=
+rder-radius: 3px; }
+.flash-banner { position: fixed; top: 0px; z-index: 42; width: 100%; border=
+-top: 0px none; border-right: 0px none; border-left: 0px none; border-radiu=
+s: 0px; }
+.signed-in-tab-flash, .signed-out-tab-flash { display: none; }
+.site-footer { position: relative; padding-top: 40px; padding-bottom: 40px;=
+ margin-top: 40px; font-size: 12px; line-height: 1.5; color: rgb(118, 118,=
+ 118); border-top: 1px solid rgb(238, 238, 238); }
+.site-footer::before { display: table; content: ""; }
+.site-footer::after { display: table; clear: both; content: ""; }
+.site-footer .octicon-mark-github { position: absolute; top: 38px; left: 50=
+%; margin-left: -12px; font-size: 24px; color: rgb(204, 204, 204); }
+.site-footer .octicon-mark-github:hover { color: rgb(187, 187, 187); }
+.site-footer-links { margin: 0px; list-style: outside none none; }
+.site-footer-links li { display: inline-block; line-height: 16px; }
+.site-footer-links li + li { margin-left: 10px; }
+.status-indicator-success::before { content: ""; }
+.status-indicator-failed::before { content: ""; }
+.inline-form { display: inline-block; }
+.issue-list-meta::before { display: table; content: ""; }
+.issue-list-meta::after { display: table; clear: both; content: ""; }
+body { min-width: 1020px; word-wrap: break-word; }
+.list-group-item::before { display: table; content: ""; }
+.list-group-item::after { display: table; clear: both; content: ""; }
+@keyframes ellipsis {
+  0% { width: 2px; }
+  100% { width: 12px; }
+}
+.user-mention, .team-mention { font-weight: bold; color: rgb(51, 51, 51);=
+ white-space: nowrap; }
+.owner-select-grid::before { display: table; content: ""; }
+.owner-select-grid::after { display: table; clear: both; content: ""; }
+.pagehead { position: relative; padding-top: 20px; padding-bottom: 20px; ma=
+rgin-bottom: 20px; border-bottom: 1px solid rgb(238, 238, 238); }
+.pagehead ul.pagehead-actions { z-index: 21; float: right; margin: 0px; }
+.pagehead .path-divider { margin: 0px 0.25em; }
+.pagehead h1 { margin-top: 0px; margin-bottom: 0px; font-size: 20px; font-w=
+eight: normal; line-height: 28px; }
+.pagehead h1 strong { font-weight: bold; }
+.pagehead-actions > li { float: left; margin: 0px 10px 0px 0px; font-size:=
+ 11px; color: rgb(51, 51, 51); list-style-type: none; }
+.pagehead-actions > li:last-child { margin-right: 0px; }
+.pagehead-actions .octicon-mute { color: rgb(204, 0, 0); }
+.pagehead-actions .select-menu { position: relative; }
+.pagehead-actions .select-menu::before { display: table; content: ""; }
+.pagehead-actions .select-menu::after { display: table; clear: both; conten=
+t: ""; }
+.pagehead-actions .select-menu-modal-holder { top: 100%; }
+.repohead.experiment-repo-nav { padding-bottom: 0px; background-color: rgb(=
+250, 250, 250); }
+.repohead .repohead-details-container { margin-bottom: 20px; }
+.repohead h1 { position: relative; float: left; max-width: 635px; padding-l=
+eft: 18px; font-size: 18px; line-height: 26px; color: rgb(102, 102, 102);=
+ }
+.repohead h1 .octicon { position: absolute; top: 0px; left: 0px; margin-top=
+: 5px; color: rgb(187, 187, 187); }
+.reponav { position: relative; top: 1px; margin-top: -5px; }
+.reponav::before { display: table; content: ""; }
+.reponav::after { display: table; clear: both; content: ""; }
+.reponav-item { float: left; padding: 7px 15px 8px; color: rgb(102, 102, 10=
+2); white-space: nowrap; border-style: solid; border-color: transparent; -m=
+oz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bot=
+tom-colors: none; -moz-border-left-colors: none; border-image: none; border=
+-width: 3px 1px 1px; border-radius: 3px 3px 0px 0px; }
+.reponav-item .octicon { color: rgb(187, 187, 187); }
+.reponav-item .counter { color: rgb(85, 85, 85); }
+.reponav-item:hover, .reponav-item:focus { color: rgb(51, 51, 51); text-dec=
+oration: none; }
+.reponav-item.selected { color: rgb(17, 17, 17); background-color: rgb(255,=
+ 255, 255); border-color: rgb(210, 105, 17) rgb(229, 229, 229) transparent;=
+ }
+.reponav-item.selected > .octicon { color: inherit; }
+.pagination::before { display: table; content: ""; }
+.pagination::after { display: table; clear: both; content: ""; }
+.prose-diff.collapsed .rich-diff-level-zero.expandable .unchanged:not(.vici=
+nity) { display: none; }
+.prose-diff.collapsed .rich-diff-level-zero.expandable:only-child::before=
+ { font-size: 18px; color: rgb(211, 211, 211); content: "Sorry, no visible=
+ changes to display."; }
+.prose-diff.collapsed .rich-diff-level-zero.expandable:only-child:hover::be=
+fore { color: rgb(0, 0, 0); }
+.prose-diff :not(.changed) > :not(.github-user-ins):not(.github-user-del)=
+ > .removed, .prose-diff :not(.changed) > :not(.github-user-ins):not(.githu=
+b-user-del) > del { text-decoration: none; }
+.prose-diff > .markdown-body li ul.removed:not(.github-user-ins) { text-dec=
+oration: line-through; }
+.prose-diff > .markdown-body li.removed:not(.moved) { color: rgb(170, 51,=
+ 51); background: rgb(255, 234, 234) none repeat scroll 0% 0%; }
+.prose-diff > .markdown-body li.removed:not(.moved):not(.github-user-ins)=
+ { text-decoration: line-through; }
+.prose-diff > .markdown-body .added:not(.github-user-del):not(.github-user-=
+ins), .prose-diff > .markdown-body ins + .added:not(.github-user-del):not(.=
+github-user-ins), .prose-diff > .markdown-body ins:not(.github-user-del):no=
+t(.github-user-ins) { text-decoration: none; }
+.prose-diff > .markdown-body ins pre:not(.github-user-del):not(.github-user=
+-ins), .prose-diff > .markdown-body ins code:not(.github-user-del):not(.git=
+hub-user-ins), .prose-diff > .markdown-body ins > div:not(.github-user-del)=
+:not(.github-user-ins) { text-decoration: none; }
+.radio-group::before { display: table; content: ""; }
+.radio-group::after { display: table; clear: both; content: ""; }
+:checked + .radio-label { position: relative; z-index: 1; border-color: rgb=
+(64, 120, 192); }
+.reaction-popover-container.active .tooltipped::before, .reaction-popover-c=
+ontainer.active .tooltipped::after { display: none; }
+.add-reactions-options::before { display: table; content: ""; }
+.add-reactions-options::after { display: table; clear: both; content: "";=
+ }
+.comment-reactions::before { display: table; content: ""; }
+.comment-reactions::after { display: table; clear: both; content: ""; }
+.render-container.is-render-ready.is-render-requested:not(.is-render-failed=
+) { height: 500px; padding: 0px; background: transparent none repeat scroll=
+ 0% 0%; }
+.render-container.is-render-ready.is-render-requested:not(.is-render-failed=
+) .render-viewer { display: block; }
+.render-container.is-render-ready.is-render-requested:not(.is-render-failed=
+) .render-viewer-error, .render-container.is-render-ready.is-render-request=
+ed:not(.is-render-failed) .render-viewer-fatal, .render-container.is-render=
+-ready.is-render-requested:not(.is-render-failed) .octospinner { display:=
+ none; }
+.new-label .label-edit::before { display: table; content: ""; }
+.new-label .label-edit::after { display: table; clear: both; content: "";=
+ }
+.label-edit::before { display: table; content: ""; }
+.label-edit::after { display: table; clear: both; content: ""; }
+.select-menu-button::after { display: inline-block; width: 0px; height: 0px=
+; vertical-align: -2px; content: ""; border-width: 4px; border-style: solid=
+; border-color: -moz-use-text-color transparent transparent; -moz-border-to=
+p-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors:=
+ none; -moz-border-left-colors: none; border-image: none; }
+.select-menu-button.primary::after { border-top-color: rgb(255, 255, 255); }
+.select-menu-modal-holder { position: absolute; z-index: 30; display: none;=
+ }
+.select-menu-modal { position: relative; width: 300px; margin-top: 4px; mar=
+gin-bottom: 20px; overflow: hidden; font-size: 12px; color: rgb(102, 102,=
+ 102); background-color: rgb(255, 255, 255); background-clip: padding-box;=
+ border: 1px solid rgba(200, 200, 200, 0.4); border-radius: 3px; box-shadow=
+: 0px 3px 12px rgba(0, 0, 0, 0.15); }
+.select-menu-header { padding: 8px 10px; line-height: 16px; background: rgb=
+(245, 245, 245) none repeat scroll 0% 0%; border-bottom: 1px solid rgba(200=
+, 200, 200, 0.4); }
+.select-menu-header .select-menu-title { font-weight: bold; color: rgb(51,=
+ 51, 51); text-shadow: 0px 1px 0px rgb(255, 255, 255); }
+.select-menu-header .octicon { display: block; float: right; color: rgb(204=
+, 204, 204); cursor: pointer; }
+.select-menu-header .octicon:hover { color: rgb(85, 85, 85); }
+.select-menu-header:focus { outline: medium none; }
+.select-menu-filters { background-color: rgb(248, 248, 248); }
+.select-menu-text-filter { padding: 10px 10px 0px; }
+.select-menu-text-filter:first-child:last-child { padding-bottom: 10px; bor=
+der-bottom: 1px solid rgb(221, 221, 221); }
+.select-menu-text-filter input { display: block; width: 100%; max-width: 10=
+0%; padding: 5px; border: 1px solid rgb(221, 221, 221); border-radius: 3px;=
+ }
+.select-menu-text-filter input::-moz-placeholder { color: rgb(170, 170, 170=
+); }
+.select-menu-tabs { padding: 10px 10px 0px; border-bottom: 1px solid rgb(22=
+1, 221, 221); }
+.select-menu-tabs ul { position: relative; bottom: -1px; }
+.select-menu-tabs .select-menu-tab { display: inline-block; }
+.select-menu-tabs a, .select-menu-tabs .select-menu-tab-nav { display: inli=
+ne-block; padding: 4px 8px 2px; font-size: 11px; font-weight: bold; color:=
+ rgb(136, 136, 136); text-decoration: none; cursor: pointer; background: tr=
+ansparent none repeat scroll 0% 0%; border: 1px solid transparent; border-r=
+adius: 3px 3px 0px 0px; }
+.select-menu-tabs a:hover, .select-menu-tabs .select-menu-tab-nav:hover {=
+ color: rgb(51, 51, 51); }
+.select-menu-list { position: relative; max-height: 400px; overflow: auto;=
+ line-height: 1.4; }
+.select-menu-list.select-menu-tab-bucket { display: none; }
+.select-menu-item { display: block; padding: 8px 8px 8px 30px; overflow: hi=
+dden; color: inherit; cursor: pointer; border-bottom: 1px solid rgb(238, 23=
+8, 238); }
+.select-menu-item:hover { text-decoration: none; }
+.select-menu-item .octicon { vertical-align: middle; }
+.select-menu-item .octicon-check { visibility: hidden; }
+.select-menu-item input[type=3D"radio"] { display: none; }
+.select-menu-item.selected { color: rgb(51, 51, 51); }
+.select-menu-item.selected .description { color: rgb(102, 102, 102); }
+.select-menu-item.selected > .octicon { color: rgb(51, 51, 51); }
+.select-menu-item.selected .octicon-check { color: inherit; visibility: vis=
+ible; }
+.select-menu-item .hidden-select-button-text { display: none; }
+.select-menu-item .css-truncate-target { max-width: 100%; }
+.select-menu-item-icon { float: left; margin-left: -20px; }
+.select-menu-list:last-child .select-menu-item:last-child, .select-menu-ite=
+m.last-visible { border-bottom: 0px none; border-radius: 0px 0px 3px 3px;=
+ }
+.select-menu-no-results { display: none; padding: 9px; color: rgb(118, 118,=
+ 118); cursor: auto; }
+.select-menu-list.filterable-empty .select-menu-no-results, .select-menu-no=
+-results:only-child { display: block; }
+.select-menu-item-text { display: block; text-align: left; }
+.select-menu-item-text .description { display: block; max-width: 265px; mar=
+gin-top: 3px; font-size: 12px; color: rgb(118, 118, 118); }
+.select-menu-item-heading { display: block; margin-top: 0px; margin-bottom:=
+ 0px; font-size: 14px; font-weight: bold; line-height: 1.1; }
+.modal-backdrop { display: none; -moz-user-select: none; }
+.subnav::before { display: table; content: ""; }
+.subnav::after { display: table; clear: both; content: ""; }
+.octicon { display: inline-block; vertical-align: text-top; fill: currentco=
+lor; }
+.team-grid::before { display: table; content: ""; }
+.team-grid::after { display: table; clear: both; content: ""; }
+@media not all, only screen and (min--moz-device-pixel-ratio: 2), not all,=
+ not all, only screen and (min-resolution: 192dpi), only screen and (min-re=
+solution: 2dppx) {
+  .tooltipped-w::after { margin-right: 4.5px; }
+}
+.typeahead-result::before { display: table; content: ""; }
+.typeahead-result::after { display: table; clear: both; content: ""; }
+#user-content-toc ul ul li::before { float: left; margin-top: -0.2em; margi=
+n-right: 0.2em; font-size: 1.2em; line-height: 1; color: rgb(170, 170, 170)=
+; content: "=E2=8C=9E"; }
+
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-38CAA8BB:https://assets-cdn.github.com/assets/github-ff4e1442a7f097b1d8db6f9bc10af12ca6545a84d7385542b8b6f843a9d6558e.css
+
+/* Effective stylesheet produced by snapshot save */
+.marketing-section::before { display: table; content: ""; }
+.marketing-section::after { display: table; clear: both; content: ""; }
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+.intgrs-lstng-item-description::after { position: absolute; right: 0px; bot=
+tom: 0px; padding: 0px 15px 0px 20px; color: transparent; content: "=C2=A0"=
+; background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(2=
+55, 255, 255) 80%); }
+.intgr-install-callout .avatar-octicon-lockup .octicon::after { position:=
+ absolute; top: 6px; left: -1px; display: block; width: 7px; height: 2px;=
+ content: ""; background-color: rgb(255, 255, 255); transform: rotate(-45de=
+g); }
+.integrations-auth-target::before { display: table; content: ""; }
+.integrations-auth-target::after { display: table; clear: both; content: ""=
+; }
+.integration-settings-show .flex-block-container .flex-block-item:nth-child=
+(3n+2) { margin-right: 15px; margin-left: 15px; }
+@keyframes teamDev {
+  3% { color: rgb(189, 44, 0); fill: rgb(189, 44, 0); border-color: rgb(189=
+, 44, 0); }
+  27% { color: rgb(189, 44, 0); fill: rgb(189, 44, 0); border-color: rgb(18=
+9, 44, 0); }
+  30% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+}
+@keyframes teamDesign {
+  34% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  37% { color: rgb(108, 198, 68); fill: rgb(108, 198, 68); border-color: rg=
+b(108, 198, 68); }
+  60% { color: rgb(108, 198, 68); fill: rgb(108, 198, 68); border-color: rg=
+b(108, 198, 68); }
+  63% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+}
+@keyframes teamMarketing {
+  67% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  70% { color: rgb(201, 81, 12); fill: rgb(201, 81, 12); border-color: rgb(=
+201, 81, 12); }
+  94% { color: rgb(201, 81, 12); fill: rgb(201, 81, 12); border-color: rgb(=
+201, 81, 12); }
+}
+@keyframes teamDevDesign {
+  3% { color: rgb(189, 44, 0); fill: rgb(189, 44, 0); border-color: rgb(189=
+, 44, 0); }
+  27% { color: rgb(189, 44, 0); fill: rgb(189, 44, 0); border-color: rgb(18=
+9, 44, 0); }
+  30% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  34% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  37% { color: rgb(108, 198, 68); fill: rgb(108, 198, 68); border-color: rg=
+b(108, 198, 68); }
+  60% { color: rgb(108, 198, 68); fill: rgb(108, 198, 68); border-color: rg=
+b(108, 198, 68); }
+  63% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+}
+@keyframes teamDevDesignMarketing {
+  3% { color: rgb(189, 44, 0); fill: rgb(189, 44, 0); border-color: rgb(189=
+, 44, 0); }
+  27% { color: rgb(189, 44, 0); fill: rgb(189, 44, 0); border-color: rgb(18=
+9, 44, 0); }
+  30% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  34% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  37% { color: rgb(108, 198, 68); fill: rgb(108, 198, 68); border-color: rg=
+b(108, 198, 68); }
+  60% { color: rgb(108, 198, 68); fill: rgb(108, 198, 68); border-color: rg=
+b(108, 198, 68); }
+  63% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  67% { color: rgb(187, 187, 187); fill: rgb(187, 187, 187); border-color:=
+ rgb(204, 204, 204); }
+  70% { color: rgb(201, 81, 12); fill: rgb(201, 81, 12); border-color: rgb(=
+201, 81, 12); }
+  94% { color: rgb(201, 81, 12); fill: rgb(201, 81, 12); border-color: rgb(=
+201, 81, 12); }
+}
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { opacity: 1; transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.segmented-nav-tab::before { display: table; content: ""; }
+.segmented-nav-tab::after { display: table; clear: both; content: ""; }
+.press-info::before { display: table; content: ""; }
+.press-info::after { display: table; clear: both; content: ""; }
+.hubbers-list::before { display: table; content: ""; }
+.hubbers-list::after { display: table; clear: both; content: ""; }
+.billing-plans .coupon.expiring .coupon-label::after { border-bottom-color:=
+ rgb(223, 110, 0); }
+.coupon-label::after { position: absolute; bottom: 100%; left: 15px; width:=
+ 0px; height: 0px; pointer-events: none; content: " "; border-style: solid;=
+ border-color: transparent transparent rgb(108, 198, 68); -moz-border-top-c=
+olors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: non=
+e; -moz-border-left-colors: none; border-image: none; border-width: 5px; }
+.billing-addon-items tr:nth-child(2n) { background-color: rgb(250, 250, 250=
+); }
+.billing-per-seat-callout::after { position: absolute; top: 1px; left: 25px=
+; display: block; width: 12px; height: 12px; content: ""; background-color:=
+ rgb(250, 250, 250); box-shadow: 1px -1px 0px 0px rgb(238, 238, 238); trans=
+form: translate(-50%, -50%) rotate(-45deg); }
+.payment-methods .selected-payment-method::before { display: table; content=
+: ""; }
+.payment-methods .selected-payment-method::after { display: table; clear:=
+ both; content: ""; }
+.billing-line-item::before { display: table; content: ""; }
+.billing-line-item::after { display: table; clear: both; content: ""; }
+.billing-confirmation-box .boxes::before { display: table; content: ""; }
+.billing-confirmation-box .boxes::after { display: table; clear: both; cont=
+ent: ""; }
+.blob-interaction-bar::before { display: table; content: ""; }
+.blob-interaction-bar::after { display: table; clear: both; content: ""; }
+.branch-action-body::after, .branch-action-body::before { position: absolut=
+e; top: 11px; right: 100%; left: -16px; display: block; width: 0px; height:=
+ 0px; pointer-events: none; content: " "; border-color: transparent; border=
+-style: solid solid outset; }
+.branch-action-body::after { margin-top: 1px; margin-left: 2px; border-widt=
+h: 7px; border-right-color: rgb(255, 255, 255); }
+.branch-action-body::before { border-width: 8px; border-right-color: rgb(22=
+1, 221, 221); }
+.branch-action-state-clean .branch-action-body::before { border-right-color=
+: rgb(149, 201, 126); }
+.branch-action-state-unknown .branch-action-body::before, .branch-action-st=
+ate-unstable .branch-action-body::before { border-right-color: rgb(226, 204=
+, 122); }
+.branch-action-state-merged .branch-action-body::before { border-right-colo=
+r: rgb(203, 192, 219); }
+.branch-action-state-error .branch-action-body::before { border-right-color=
+: rgb(233, 122, 116); }
+.merge-branch-form .commit-form::before { border-right-color: rgb(149, 201,=
+ 126); }
+.merge-branch-form.error .commit-form::before, .merge-branch-form.danger .c=
+ommit-form::before { border-right-color: rgb(233, 122, 116); }
+.branch-group::before { display: table; content: ""; }
+.branch-group::after { display: table; clear: both; content: ""; }
+.existing-pull .list-group-item::before { display: table; content: ""; }
+.existing-pull .list-group-item::after { display: table; clear: both; conte=
+nt: ""; }
+@keyframes broadCastMaskFade {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.discussion-timeline::before { position: absolute; top: 0px; bottom: 0px;=
+ left: 79px; z-index: -1; display: block; width: 2px; content: ""; backgrou=
+nd-color: rgb(243, 243, 243); }
+.participation-avatars::before { display: table; content: ""; }
+.participation-avatars::after { display: table; clear: both; content: "";=
+ }
+.inline-comment-form::before { display: table; content: ""; }
+.inline-comment-form::after { display: table; clear: both; content: ""; }
+.gh-header-edit::before { display: table; content: ""; }
+.gh-header-edit::after { display: table; clear: both; content: ""; }
+.timeline-comment-wrapper > .timeline-comment::after, .timeline-comment-wra=
+pper > .timeline-comment::before, .timeline-new-comment .timeline-comment::=
+after, .timeline-new-comment .timeline-comment::before { position: absolute=
+; top: 11px; right: 100%; left: -16px; display: block; width: 0px; height:=
+ 0px; pointer-events: none; content: " "; border-color: transparent; border=
+-style: solid solid outset; }
+.timeline-comment-wrapper > .timeline-comment::after, .timeline-new-comment=
+ .timeline-comment::after { margin-top: 1px; margin-left: 2px; border-width=
+: 7px; border-right-color: rgb(247, 247, 247); }
+.timeline-comment-wrapper > .timeline-comment::before, .timeline-new-commen=
+t .timeline-comment::before { border-width: 8px; border-right-color: rgb(22=
+1, 221, 221); }
+.timeline-comment-wrapper .timeline-comment.current-user::after, .timeline-=
+comment-wrapper .timeline-comment.current-user::before { position: absolute=
+; top: 11px; right: 100%; left: -16px; display: block; width: 0px; height:=
+ 0px; pointer-events: none; content: " "; border-color: transparent; border=
+-style: solid solid outset; }
+.timeline-comment-wrapper .timeline-comment.current-user::after { margin-to=
+p: 1px; margin-left: 2px; border-width: 7px; border-right-color: rgb(242,=
+ 248, 250); }
+.timeline-comment-wrapper .timeline-comment.current-user::before { border-w=
+idth: 8px; border-right-color: rgb(191, 204, 209); }
+.timeline-comment-wrapper .timeline-comment.unread-item::after, .timeline-c=
+omment-wrapper .timeline-comment.unread-item::before { position: absolute;=
+ top: 11px; right: 100%; left: -16px; display: block; width: 0px; height:=
+ 0px; pointer-events: none; content: " "; border-color: transparent; border=
+-style: solid solid outset; }
+.timeline-comment-wrapper .timeline-comment.unread-item::after { margin-top=
+: 1px; margin-left: 2px; border-width: 7px; border-right-color: rgb(255, 24=
+9, 234); }
+.timeline-comment-wrapper .timeline-comment.unread-item::before { border-wi=
+dth: 8px; border-right-color: rgb(223, 216, 194); }
+.timeline-comment.will-transition-once::before, .timeline-comment.will-tran=
+sition-once::after { transition: border-right-color 0.65s ease-in-out 0s;=
+ }
+.timeline-comment .comment + .comment::before, .timeline-comment .comment=
+ + .comment::after { display: none; }
+.new-discussion-timeline .composer .timeline-comment::after { border-right-=
+color: rgb(255, 255, 255); }
+.explore-section:nth-child(2n) { background: rgb(249, 249, 249) none repeat=
+ scroll 0% 0%; }
+.explore-section:nth-child(2n) .repo-collection > ul { background: rgb(255,=
+ 255, 255) none repeat scroll 0% 0%; }
+.explore-section:nth-child(2n+1):last-child { padding-bottom: 0px; border-b=
+ottom: 0px none; }
+.file { position: relative; margin-top: 20px; margin-bottom: 15px; border:=
+ 1px solid rgb(221, 221, 221); border-radius: 3px; }
+.file-header { padding: 5px 10px; background-color: rgb(247, 247, 247); bor=
+der-bottom: 1px solid rgb(216, 216, 216); border-top-left-radius: 2px; bord=
+er-top-right-radius: 2px; }
+.file-header::before { display: table; content: ""; }
+.file-header::after { display: table; clear: both; content: ""; }
+.file-actions { float: right; padding-top: 3px; }
+.file-info { float: left; font-family: Consolas,"Liberation Mono",Menlo,Cou=
+rier,monospace; font-size: 12px; line-height: 32px; }
+.file-info-divider { display: inline-block; width: 1px; height: 18px; margi=
+n-right: 3px; margin-left: 3px; vertical-align: middle; background-color:=
+ rgb(221, 221, 221); }
+h2.ghead::after { display: block; height: 0px; clear: both; visibility: hid=
+den; content: "."; }
+.svg-tip::after { position: absolute; bottom: -10px; left: 50%; width: 5px;=
+ height: 5px; box-sizing: border-box; margin: 0px 0px 0px -5px; content: "=
+ "; border-width: 5px; border-style: solid; border-color: rgba(0, 0, 0, 0.8=
+) transparent transparent; -moz-border-top-colors: none; -moz-border-right-=
+colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: non=
+e; border-image: none; }
+.header { padding-top: 10px; padding-bottom: 10px; background-color: rgb(24=
+5, 245, 245); border-bottom: 1px solid rgb(229, 229, 229); }
+.header-logo-invertocat { float: left; margin-right: 10px; margin-left: -2p=
+x; color: rgb(51, 51, 51); white-space: nowrap; }
+.header-logo-invertocat .octicon-mark-github { float: left; font-size: 28px=
+; }
+.header-logo-invertocat:hover { color: rgb(64, 120, 192); text-decoration:=
+ none; }
+.notification-indicator .mail-status { position: absolute; top: -2px; right=
+: 3px; z-index: 2; display: none; width: 14px; height: 14px; color: rgb(255=
+, 255, 255); text-align: center; background-image: linear-gradient(rgb(122,=
+ 161, 211), rgb(64, 120, 192)); background-clip: padding-box; border: 2px=
+ solid rgb(243, 243, 243); border-radius: 50%; }
+.notification-indicator .mail-status.unread { display: inline-block; }
+.notification-indicator:hover .mail-status { background-color: rgb(64, 120,=
+ 192); }
+.header-search { float: left; width: 360px; margin-right: 10px; }
+.header-search-wrapper { display: table; width: 100%; max-width: 100%; min-=
+height: 0px; padding: 0px; font-size: 12px; font-weight: normal; vertical-a=
+lign: middle; }
+.header-search-input { display: table-cell; width: 99%; min-height: 26px;=
+ padding-top: 0px; padding-bottom: 0px; background: transparent none repeat=
+ scroll 0% 0%; border: 0px none; box-shadow: none; }
+.header-search-input:focus { border: 0px none; box-shadow: none; }
+.header-search-scope { display: none; width: 1%; padding-right: 8px; paddin=
+g-left: 8px; color: rgb(118, 118, 118); white-space: nowrap; vertical-align=
+: middle; border-right: 1px solid rgb(238, 238, 238); border-top-left-radiu=
+s: 2px; border-bottom-left-radius: 2px; }
+.scoped-search .header-search-scope { display: table-cell; }
+.header-nav { list-style: outside none none; }
+.header-nav-item { float: left; }
+.header-nav-item.active .tooltipped::before, .header-nav-item.active .toolt=
+ipped::after { display: none; }
+.header-nav-item .dropdown-menu { width: 180px; margin-top: 13px; }
+.header-nav-link { display: block; padding: 4px 8px; font-size: 13px; font-=
+weight: bold; line-height: 20px; color: rgb(51, 51, 51); }
+.header-nav-link:hover, .header-nav-link:focus { color: rgb(64, 120, 192);=
+ text-decoration: none; }
+.header-nav-link:hover .dropdown-caret, .header-nav-link:focus .dropdown-ca=
+ret { border-top-color: rgb(64, 120, 192); }
+.user-nav { margin-right: -8px; }
+.user-nav .header-nav-link { height: 28px; }
+.user-nav .octicon { width: 16px; margin-top: 1px; text-align: center; }
+.user-nav .octicon-plus { margin-right: 1px; }
+.user-nav .octicon-bell { vertical-align: text-bottom; }
+.user-nav .avatar { float: left; margin-right: 5px; }
+.header-nav-current-user { padding-bottom: 0px; font-size: inherit; }
+.header-nav-current-user .css-truncate-target { max-width: 100%; }
+.accessibility-aid { position: absolute; width: 1px; height: 1px; margin:=
+ 0px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); }
+.accessibility-aid:focus { top: 0px; z-index: 1; width: auto; height: auto;=
+ padding: 0px 10px; clip: auto; font-weight: bold; line-height: 49px; color=
+: rgb(51, 51, 51); text-decoration: none; background: rgb(245, 245, 245) no=
+ne repeat scroll 0% 0%; }
+.job-posting-list-item .job-posting-unpublished::before { content: "=C2=B7=
+=C2=A0"; }
+.job-posting-details-list .job-posting-detail + .job-posting-detail::before=
+ { content: "=C2=A0=C2=B7=C2=A0"; }
+.job-posting-credits-list .job-posting-credit-user + .job-posting-credit-da=
+te::before { padding-right: 0.3em; padding-left: 0.3em; content: "=C2=B7"; }
+.new-issue-form::before { display: table; content: ""; }
+.new-issue-form::after { display: table; clear: both; content: ""; }
+.new-issue-form .discussion-timeline::before { display: none; }
+.new-pr-form::before { display: table; content: ""; }
+.new-pr-form::after { display: table; clear: both; content: ""; }
+.new-pr-form .discussion-timeline::before { display: none; }
+.ellipsis-button::before { content: "=E2=80=A6"; }
+.oauth-permissions-details.default:not(.delete) .no-access, .oauth-permissi=
+ons-details.default:not(.delete) .default-access, .oauth-permissions-detail=
+s.none .no-access, .oauth-permissions-details.none .default-access { displa=
+y: inline; }
+.oauth-permissions-details.default:not(.delete) .access-details, .oauth-per=
+missions-details.default:not(.delete) .permission-title, .oauth-permissions=
+-details.none .access-details, .oauth-permissions-details.none .permission-=
+title { color: rgb(153, 153, 153); }
+.oauth-permissions-details.default:not(.delete) .octicon, .oauth-permission=
+s-details.none .octicon { color: rgb(204, 204, 204); }
+.audit-search-form::before { display: table; content: ""; }
+.audit-search-form::after { display: table; clear: both; content: ""; }
+.graticule :nth-child(2n) { stroke-dasharray: 2, 2; }
+.audit-results-header::before { display: table; content: ""; }
+.audit-results-header::after { display: table; clear: both; content: ""; }
+.export-actions .select-menu-button::after { position: absolute; top: 50%;=
+ right: 15px; margin-top: -2px; }
+.audit-log-export-button.disabled::after { display: none; }
+.member-avatar-group::before { display: table; content: ""; }
+.member-avatar-group::after { display: table; clear: both; content: ""; }
+.member-row::before { display: table; content: ""; }
+.member-row::after { display: table; clear: both; content: ""; }
+.org-list .list-item::before { display: table; content: ""; }
+.org-list .list-item::after { display: table; clear: both; content: ""; }
+.permission-level-cell .select-menu-button::after { position: absolute; top=
+: 10px; right: 10px; }
+.invitation-role-group::before { display: table; content: ""; }
+.invitation-role-group::after { display: table; clear: both; content: "";=
+ }
+.migration-jumbotron::after, .migration-sub-header::after { position: absol=
+ute; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: 1; content: "=
+ "; background-image: url("urn:not-loaded:https://assets-cdn.github.com/ima=
+ges/modules/orgs/dots-bg.png"); background-repeat: repeat; background-size:=
+ 80% auto; opacity: 0.75; }
+.migration-jumbotron-octicon-item::after { position: absolute; top: 1px; ri=
+ght: 1px; bottom: 1px; left: 1px; content: ""; background-color: rgb(56, 63=
+, 71); border-radius: 50px; }
+.migration-feature-list::before { display: block; width: 100px; margin-bott=
+om: 30px; content: ""; border-top: 1px solid rgb(221, 221, 221); }
+.migration-illustration-wrapper::before { display: table; content: ""; }
+.migration-illustration-wrapper::after { display: table; clear: both; conte=
+nt: ""; }
+.migrate-org-roles .tooltipped::after { width: 150px; white-space: normal; }
+.migrate-org-avatar-list::before { display: table; content: ""; }
+.migrate-org-avatar-list::after { display: table; clear: both; content: "";=
+ }
+.migrate-org-avatar-list .tooltipped::after { width: auto; white-space: now=
+rap; }
+.org-settings-teams::before { display: table; content: ""; }
+.org-settings-teams::after { display: table; clear: both; content: ""; }
+.manage-user-info::before { display: table; content: ""; }
+.manage-user-info::after { display: table; clear: both; content: ""; }
+.manage-repo-access-header::before { display: table; content: ""; }
+.manage-repo-access-header::after { display: table; clear: both; content:=
+ ""; }
+.manage-repo-access-header .tooltipped::after { width: 250px; white-space:=
+ normal; }
+.manage-repo-access-wrapper::before { position: absolute; top: 15px; bottom=
+: 15px; left: 20px; z-index: 1; display: block; width: 2px; content: ""; ba=
+ckground-color: rgb(238, 238, 238); }
+.manage-access-remove-footer .tooltipped::after { width: 250px; white-space=
+: normal; }
+.invited .team-member-list .list-item::before { display: table; content: ""=
+; }
+.invited .team-member-list .list-item::after { display: table; clear: both;=
+ content: ""; }
+.invited-banner::before { display: table; content: ""; }
+.invited-banner::after { display: table; clear: both; content: ""; }
+.theme-selector-actions::before { display: table; content: ""; }
+.theme-selector-actions::after { display: table; clear: both; content: ""; }
+.pjax-loader-bar { position: fixed; top: 0px; left: 0px; z-index: 40; opaci=
+ty: 0; transition: opacity 0.4s linear 0.4s; }
+.vcard-stats::before { display: table; content: ""; }
+.vcard-stats::after { display: table; clear: both; content: ""; }
+.pr-toolbar::before { display: table; content: ""; }
+.pr-toolbar::after { display: table; clear: both; content: ""; }
+.pr-toolbar.is-stuck::after { position: fixed; top: 0px; right: 0px; left:=
+ 0px; z-index: -1; display: block; height: 60px; content: ""; border-bottom=
+: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075=
+); }
+.pr-toolbar .dropdown.active .tooltipped::before, .pr-toolbar .dropdown.act=
+ive .tooltipped::after { display: none; }
+.diffbar::before { display: table; content: ""; }
+.diffbar::after { display: table; clear: both; content: ""; }
+.diffbar-range-menu .select-menu-item:not(.select-menu-action) { padding:=
+ 8px 10px; }
+.readme .markdown-body, .readme .plain { padding: 45px; word-wrap: break-wo=
+rd; background-color: rgb(255, 255, 255); border: 1px solid rgb(221, 221,=
+ 221); border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+.file .readme .markdown-body { padding: 45px; border: 0px none; border-radi=
+us: 0px; }
+.release-timeline-tags > li::before { display: table; content: ""; }
+.release-timeline-tags > li::after { display: table; clear: both; content:=
+ ""; }
+.release-timeline-tags .date::after { position: absolute; top: 50%; right:=
+ -7px; z-index: 10; display: block; width: 12px; height: 12px; box-sizing:=
+ border-box; margin-top: -6px; content: " "; background-color: rgb(238, 238=
+, 238); border: 2px solid rgb(255, 255, 255); border-radius: 6px; }
+.release-timeline-tags .expander .date::after { display: none; }
+.release::before { display: table; content: ""; }
+.release::after { display: table; clear: both; content: ""; }
+.uploaded-files > li.delete:nth-child(2) { border-top-left-radius: 3px; bor=
+der-top-right-radius: 3px; }
+.uploaded-files > li:nth-child(2) { border-top: 0px none; }
+.releases-target-menu .select-menu-button::before { top: 14px; }
+.filter-bar::before { display: table; content: ""; }
+.filter-bar::after { display: table; clear: both; content: ""; }
+.pagehead.repohead .select-menu .select-menu-modal-holder { z-index: 25; }
+.repository-meta::before { display: table; content: ""; }
+.repository-meta::after { display: table; clear: both; content: ""; }
+.file-navigation::before { display: table; content: ""; }
+.file-navigation::after { display: table; clear: both; content: ""; }
+.file-navigation .select-menu-button .css-truncate-target { max-width: 55px=
+; }
+.file-navigation .branch-select-menu { margin-right: 3px; margin-bottom: 10=
+px; }
+.file-navigation .breadcrumb { float: left; margin-top: 0px; margin-left:=
+ 5px; font-size: 16px; line-height: 26px; }
+.file-navigation .btn-group { margin-bottom: 10px; margin-left: 10px; }
+.file-navigation-new .get-repo-btn:nth-child(1):nth-last-child(3) { border-=
+radius: 0px; }
+table.files .message .tooltipped::before, table.files .message .tooltipped:=
+:after { display: none; }
+.branch-infobar::before { display: table; content: ""; }
+.branch-infobar::after { display: table; clear: both; content: ""; }
+.two-factor-recovery-code::before { position: relative; top: 1px; margin-ri=
+ght: 10px; font-size: 26px; color: rgb(234, 234, 234); content: "=E2=96=A1"=
+; }
+.sms-or-app::before { display: table; content: ""; }
+.sms-or-app::after { display: table; clear: both; content: ""; }
+li.session-device.session-current .sessions-more-info::after { border-top-c=
+olor: rgb(255, 255, 255); }
+.listgroup-item::before { display: table; content: ""; }
+.listgroup-item::after { display: table; clear: both; content: ""; }
+.user-already-added::after { display: inline-block; padding: 1px 5px; margi=
+n-left: 6px; font-size: 11px; line-height: 1.4; color: rgb(255, 255, 255);=
+ content: "Already added"; background-color: rgb(201, 81, 12); border-radiu=
+s: 3px; }
+@keyframes toggle-color {
+  0% { background-color: transparent; }
+  50% { color: rgb(76, 74, 66); background-color: rgb(255, 249, 234); borde=
+r-color: rgb(223, 216, 194); }
+  100% { background-color: transparent; }
+}
+.list-group-text-block .meta-description::after { content: "=C2=A0"; }
+.repository-merge-features .form-group.errored .error::before, .repository-=
+merge-features .form-group.errored .error::after { display: none; }
+.setup-wrapper::before { display: table; content: ""; }
+.setup-wrapper::after { display: table; clear: both; content: ""; }
+.features-list .tooltipped::after { width: 250px; white-space: normal; }
+.showcase-page-pattern::after { position: absolute; top: 0px; right: 0px;=
+ bottom: 0px; left: 0px; display: block; content: ""; background-image: lin=
+ear-gradient(180deg, rgba(255, 255, 255, 0.85), rgb(255, 255, 255)); }
+.uniques-graph .x.axis .tick:nth-child(14) line { stroke: rgb(29, 127, 179)=
+; stroke-width: 2px; }
+table.capped-list tr:nth-child(2n) { background-color: rgb(252, 252, 252); }
+.traffic-graph-stats .summary-stats::before { display: table; content: ""; }
+.traffic-graph-stats .summary-stats::after { display: table; clear: both;=
+ content: ""; }
+.wiki-wrapper .wiki-auxiliary-content.markdown-body.wiki-writable > :nth-ch=
+ild(2) { margin-top: 0px ! important; }
+.wiki-wrapper .wiki-custom-sidebar > :nth-child(2) { margin-top: 0px; }
+
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-38F603D9:https://assets-cdn.github.com/assets/frameworks-5cb6f1c6f9211bfeed3bfc7596d8a1b3c5f4bb841d5318645a0aafff48b5b33d.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-BDCF6CBF:https://assets-cdn.github.com/assets/github-95420f7dee094ef84be94e3d806ad5b523740005c2a326fa92e11935f0f74c4e.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_D5001CCE.6881586A
+Content-Type: image/x-icon
+Content-Transfer-Encoding: base64
+Content-Location: https://assets-cdn.github.com/favicon.ico
+
+AAABAAIAEBAAAAEAIAAoBQAAJgAAACAgAAABACAAKBQAAE4FAAAoAAAAEAAAACAAAAABACAAAAAA
+AAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERE3YTExPFDg4OEgAAAAAAAAAA
+Dw8PERERFLETExNpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUFJYTExT8ExMU7QAAABkA
+AAAAAAAAAAAAABgVFRf/FRUX/xERE4UAAAAAAAAAAAAAAAAAAAAAAAAAABERE8ETExTuERERHg8P
+DxAAAAAAAAAAAAAAAAAAAAANExMU9RUVF/8VFRf/EhIUrwAAAAAAAAAAAAAAABQUFJkVFRf/BQUR
+LA0NDVwODg/BDw8PIgAAAAAAAAAADg4ONBAQEP8VFRf/FRUX/xUVF/8TExOPAAAAAA8PDzAPDQ//
+AAAA+QEBAe0CAgL/AgIC9g0NDTgAAAAAAAAAAAcHB0ACAgLrFRUX/xUVF/8VFRf/FRUX/xERES0T
+ExacFBQV/wEBAfwPDxH7DAwROwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NEToTExTnFRUX/xUV
+F/8TExOaExMT2RUVF/8VFRf/ExMTTwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQ
+TBUVF/8VFRf/ExMT2hMTFPYVFRf/FBQU8AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAITExTxFRUX/xMTFPYTExT3FRUX/xQUFOEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAFBQU4RUVF/8TExT3ExMU3hUVF/8TExT5Dw8PIQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAEBAQHxMTFPgVFRf/ExMU3hERFKIVFRf/FRUX/w4ODjQAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PD0AVFRf/FRUX/xERFKINDQ04FRUX/xUVF/8SEhKY
+AAAAAAAAAAwAAAAKAAAAAAAAAAAAAAAMAAAAAQAAAAASEhKYFRUX/xUVF/8NDQ04AAAAABERFKQV
+FRf/ERETwQ4ODjYAAACBDQ0N3BISFNgSEhTYExMU9wAAAHQEBAQ3ERETwRUVF/8RERSkAAAAAAAA
+AAAAAAADExMTxhUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8TExPGAAAA
+AwAAAAAAAAAAAAAAAAAAAAMRERSiFRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8RERSi
+AAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQED4SEhKXExMT2RISFPISEhTyExMT2RISEpcQ
+EBA+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAIAAAAEAA
+AAABACAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwRERNzExMT2hMTFOwAAAAHAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABxMTFOwTExPaERETdAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERRkExMU6hUVF/8VFRf/FRUX/w8PDxAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8QFRUX/xUVF/8VFRf/ExMU6xERFGUAAAABAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODg4SExMTtxUVF/8VFRf/FRUX/xUV
+F/8VFRf/Dw8PEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PDxAVFRf/FRUX/xUVF/8VFRf/FRUX
+/xMTE7cODg4SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQHxMTFNsVFRf/
+FRUX/xQUFMMRERN1Dw8PYBMTE3gAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8PEBUVF/8V
+FRf/FRUX/xUVF/8VFRf/FRUX/xMTFNsQEBAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ABgTExTcFRUX/xUVF/8SEhJvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAPDw8QFRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xMTFNwAAAAYAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAEExMTxBUVF/8VFRf/ExMUuQAAAAAPDw8QDw8PYxISEnoODg5GAAAAAwAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAwMDBUVFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xMT
+E8QAAAAEAAAAAAAAAAAAAAAAAAAAABISEn4VFRf/FRUX/xUVF/8NDQ04Dw8PIRMTE+IVFRf/FRUX
+/xUVF/8RERE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQPhUVF/8VFRf/FRUX/xUVF/8VFRf/
+FRUX/xUVF/8VFRf/FRUX/xISEn4AAAAAAAAAAAAAAAAREREeExMU9xUVF/8TExT+ERETcwAAAAcT
+ExTJFRUX/xUVF/8VFRf/FRUX/xMTFK4AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAERERSwFRUX/xUV
+F/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/ExMU9xERER4AAAAAAAAAABISEpcVFRf/FRUX
+/xISEooQEBA/ERETwhUVF/8VFRf/ExMU+hMTFqoRERRlDg4ONAAAAAMAAAAAAAAAAAAAAAAAAAAA
+AAAABA0NETkODhNoExMUrhMTFPoVFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/EhISlwAAAAAA
+AAANExMU9RUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xMTFKsAAAAYAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRMTFKsVFRf/FRUX/xUVF/8VFRf/FRUX
+/xUVF/8TExT1AAAADQ4OFFkVFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8TExOPAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMTE48V
+FRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8ODhRZExMTnRUVF/8VFRf/FRUX/xUVF/8VFRf/EREU0QAA
+AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAABBERFNEVFRf/FRUX/xUVF/8VFRf/FRUX/xMTE50RERTQFRUX/xUVF/8VFRf/
+FRUX/xUVF/8SEhJeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhISXhUVF/8VFRf/FRUX/xUVF/8VFRf/EREU0BIS
+FPIVFRf/FRUX/xUVF/8VFRf/FRUX/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWFRUX/xUVF/8VFRf/
+FRUX/xUVF/8SEhTyFRUX/xUVF/8VFRf/FRUX/xUVF/8SEhTyAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAASEhTyFRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xMTFNsAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAABMTFNwVFRf/FRUX/xUVF/8VFRf/FRUX/xMTFPYVFRf/FRUX/xUVF/8V
+FRf/FBQU4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQU4RUVF/8VFRf/FRUX/xUVF/8TExT2ExMU
+1hUVF/8VFRf/FRUX/xUVF/8TExT8ERERDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREQ8TExT8FRUX/xUVF/8V
+FRf/FRUX/xMTFNYTExOpFRUX/xUVF/8VFRf/FRUX/xUVF/8PDw9iAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8P
+YhUVF/8VFRf/FRUX/xUVF/8VFRf/ExMTqQ4OE2cVFRf/FRUX/xUVF/8VFRf/FRUX/xMTFuMODg4S
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAA4ODhITExPiFRUX/xUVF/8VFRf/FRUX/xUVF/8ODhNnAAAAGBMTFPwVFRf/FRUX/xUV
+F/8VFRf/FRUX/xISEl8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAEhISXxUVF/8VFRf/FRUX/xUVF/8VFRf/ExMU/AAAABgAAAAA
+ExMUrhUVF/8VFRf/FRUX/xUVF/8VFRf/Dg4ONQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODg41FRUX/xUVF/8VFRf/FRUX/xUV
+F/8TExSuAAAAAAAAAAAODg40FRUX/xUVF/8VFRf/FRUX/xUVF/8PDw8yAAAAAAAAAAAAAAAAERER
+DwwMDCgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIMDAwoERERDwAAAAAAAAAAAAAAAA8PDzIVFRf/
+FRUX/xUVF/8VFRf/FRUX/w4ODjQAAAAAAAAAAAAAAAATExSeFRUX/xUVF/8VFRf/FRUX/xMTE1wA
+AAAAAAAABw8PD2MTExToFRUX/xMTFPMUFBTSERETwRERE8EUFBTSExMU8xUVF/8TExToDw8PYwAA
+AAcAAAAAExMTXBUVF/8VFRf/FRUX/xUVF/8TExSeAAAAAAAAAAAAAAAAAAAAAA8PDxETExTfFRUX
+/xUVF/8VFRf/ExMU1hMTFK0TExTxFRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/
+FRUX/xUVF/8VFRf/ExMU8RMTFK0TExTWFRUX/xUVF/8VFRf/ExMU3w8PDxEAAAAAAAAAAAAAAAAA
+AAAAAAAAAA8PDzMTExTxFRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUV
+F/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xMTFPEPDw8zAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PD0ITExTxFRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/
+FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8T
+ExTxDw8PQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PDzETExTeFRUX/xUV
+F/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX
+/xUVF/8VFRf/ExMU3g8PDzEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAABEREQ8TExObExMU/hUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8VFRf/FRUX/xUVF/8V
+FRf/FRUX/xUVF/8VFRf/ExMU/hMTE5sREREPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8xExMTqRMTFPsVFRf/FRUX/xUVF/8VFRf/FRUX
+/xUVF/8VFRf/FRUX/xUVF/8VFRf/ExMU+xMTE6kPDw8xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwMFA8PD2MR
+ERSkFBQU0hMTFPMVFRf/FRUX/xMTFPMUFBTSEREUpA8PD2MMDAwUAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAA=
+------=_NextPart_000_0000_D5001CCE.6881586A--

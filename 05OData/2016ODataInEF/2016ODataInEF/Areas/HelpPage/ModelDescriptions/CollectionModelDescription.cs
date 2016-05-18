@@ -1,0 +1,7 @@
+namespace _2016ODataInEF.Areas.HelpPage.ModelDescriptions
+{
+    public class CollectionModelDescription : ModelDescription
+    {
+        public ModelDescription ElementDescription { get; set; }
+    }
+}

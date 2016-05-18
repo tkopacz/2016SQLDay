@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1833353ff3e24fa6b66431d521ddf9ef" Name="Diagram1">
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.C__RefactorLog" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.abc" Width="1.5" PointX="2.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.abc2noncluster" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.abc3insert" Width="1.5" PointX="4.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.AWBuildVersion" Width="1.5" PointX="6.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.DatabaseLog" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.DemoDocTable" Width="1.5" PointX="5.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.employee" Width="1.5" PointX="2.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ErrorLog" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.MarketingCampaignEffectiveness" Width="1.5" PointX="14.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.patient" Width="1.5" PointX="0.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.psptest1" Width="1.5" PointX="5.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.sample_table" Width="1.5" PointX="16.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.t1" Width="1.5" PointX="16.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Table1" Width="1.5" PointX="12.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.TblSample" Width="1.5" PointX="17.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.wing" Width="1.5" PointX="16.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Department" Width="1.5" PointX="12.75" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Employee1" Width="1.5" PointX="9.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.EmployeeDepartmentHistory" Width="1.5" PointX="15" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.EmployeePayHistory" Width="1.5" PointX="12" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.JobCandidate" Width="1.5" PointX="12" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Shift" Width="1.5" PointX="12.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Address" Width="1.5" PointX="12" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.AddressType" Width="1.5" PointX="14" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.BusinessEntity" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.BusinessEntityAddress" Width="1.5" PointX="16.25" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.BusinessEntityContact" Width="1.5" PointX="14.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ContactType" Width="1.5" PointX="12.5" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.CountryRegion" Width="1.5" PointX="7.5" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.EmailAddress" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Password" Width="1.5" PointX="9.75" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Person" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.PersonPhone" Width="1.5" PointX="12.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.PhoneNumberType" Width="1.5" PointX="10.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.StateProvince" Width="1.5" PointX="9.75" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.BillOfMaterial" Width="1.5" PointX="3" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Culture" Width="1.5" PointX="3.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Illustration" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Location" Width="1.5" PointX="9" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Product" Width="1.5" PointX="6" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductCategory" Width="1.5" PointX="1.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductCostHistory" Width="1.5" PointX="8.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductDescription" Width="1.5" PointX="3.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductInventory" Width="1.5" PointX="11.25" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductListPriceHistory" Width="1.5" PointX="8.25" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductModel" Width="1.5" PointX="3.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductModelIllustration" Width="1.5" PointX="6" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductModelProductDescriptionCulture" Width="1.5" PointX="6" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductPhoto" Width="1.5" PointX="9" PointY="37.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductProductPhoto" Width="1.5" PointX="11.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductReview" Width="1.5" PointX="8.25" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductSubcategory" Width="1.5" PointX="3.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ScrapReason" Width="1.5" PointX="9" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.TransactionHistory" Width="1.5" PointX="8.25" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.TransactionHistoryArchive" Width="1.5" PointX="0.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.UnitMeasure" Width="1.5" PointX="0.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.WorkOrder" Width="1.5" PointX="11.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.WorkOrderRouting" Width="1.5" PointX="13.5" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductVendor" Width="1.5" PointX="14.25" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.PurchaseOrderDetail" Width="1.5" PointX="14.25" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.PurchaseOrderHeader" Width="1.5" PointX="12" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ShipMethod" Width="1.5" PointX="9.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Vendor" Width="1.5" PointX="9.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.CountryRegionCurrency" Width="1.5" PointX="17" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.CreditCard" Width="1.5" PointX="12" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Currency" Width="1.5" PointX="9.75" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.CurrencyRate" Width="1.5" PointX="12" PointY="70.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Customer" Width="1.5" PointX="12" PointY="74.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.PersonCreditCard" Width="1.5" PointX="14.25" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesOrderDetail" Width="1.5" PointX="16.5" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesOrderHeader" Width="1.5" PointX="14.25" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesOrderHeaderSalesReason" Width="1.5" PointX="16.5" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesPerson" Width="1.5" PointX="7.5" PointY="74.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesPersonQuotaHistory" Width="1.5" PointX="9.75" PointY="79" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesReason" Width="1.5" PointX="14.25" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesTaxRate" Width="1.5" PointX="12" PointY="57.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesTerritory" Width="1.5" PointX="7.5" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesTerritoryHistory" Width="1.5" PointX="9.75" PointY="66.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ShoppingCartItem" Width="1.5" PointX="8.25" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SpecialOffer" Width="1.5" PointX="12" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SpecialOfferProduct" Width="1.5" PointX="14.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.Store" Width="1.5" PointX="9.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.tkArticle" Width="1.5" PointX="14.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.tkLog" Width="1.5" PointX="18.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.tkOrder" Width="1.5" PointX="14.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.tkOrderToArticle" Width="1.5" PointX="17" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.abc1" Width="1.5" PointX="18.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.CustomerInformation" Width="1.5" PointX="18.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.NewProduct" Width="1.5" PointX="19.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.OrderInformation" Width="1.5" PointX="19.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.ProductDocument" Width="1.5" PointX="8.25" PointY="56.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.SalesOrderDetail1" Width="1.5" PointX="20.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vEmployee" Width="1.5" PointX="16.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vEmployeeDepartment" Width="1.5" PointX="20.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vEmployeeDepartmentHistory" Width="1.5" PointX="21.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vJobCandidate" Width="1.5" PointX="21.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vJobCandidateEducation" Width="1.5" PointX="18.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vJobCandidateEmployment" Width="1.5" PointX="20.75" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vAdditionalContactInfo" Width="1.5" PointX="22.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vStateProvinceCountryRegion" Width="1.5" PointX="22.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vProductAndDescription" Width="1.5" PointX="22.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vProductModelCatalogDescription" Width="1.5" PointX="22.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vProductModelInstruction" Width="1.5" PointX="23.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vVendorWithAddress" Width="1.5" PointX="23.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vVendorWithContact" Width="1.5" PointX="24.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vIndividualCustomer" Width="1.5" PointX="24.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vPersonDemographic" Width="1.5" PointX="24.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vSalesPerson" Width="1.5" PointX="24.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vSalesPersonSalesByFiscalYear" Width="1.5" PointX="25.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vStoreWithAddress" Width="1.5" PointX="25.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vStoreWithContact" Width="1.5" PointX="26.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.vStoreWithDemographic" Width="1.5" PointX="26.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.database_firewall_rules" Width="1.5" PointX="26.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tkDemoLoadToSQLDBModel.tkViewAll" Width="1.5" PointX="18.75" PointY="27.5" IsExpanded="true" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_EmployeeDepartmentHistory_Department_DepartmentID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Employee_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_EmployeePayHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_JobCandidate_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PurchaseOrderHeader_Employee_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesPerson_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_EmployeeDepartmentHistory_Shift_ShiftID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Address_StateProvince_StateProvinceID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BusinessEntityAddress_Address_AddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_Address_BillToAddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_Address_ShipToAddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BusinessEntityAddress_AddressType_AddressTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BusinessEntityAddress_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BusinessEntityContact_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Person_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Store_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Vendor_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BusinessEntityContact_ContactType_ContactTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BusinessEntityContact_Person_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_CountryRegionCurrency_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesTerritory_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_StateProvince_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_EmailAddress_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Password_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Customer_Person_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PersonCreditCard_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PersonPhone_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PersonPhone_PhoneNumberType_PhoneNumberTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesTaxRate_StateProvince_StateProvinceID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_StateProvince_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BillOfMaterials_Product_ComponentID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BillOfMaterials_Product_ProductAssemblyID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_BillOfMaterials_UnitMeasure_UnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductModelProductDescriptionCulture_Culture_CultureID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductModelIllustration_Illustration_IllustrationID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductInventory_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_WorkOrderRouting_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Product_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Product_ProductSubcategory_ProductSubcategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Product_UnitMeasure_SizeUnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Product_UnitMeasure_WeightUnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductCostHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductDocument_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductInventory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductListPriceHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductProductPhoto_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductReview_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductVendor_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PurchaseOrderDetail_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ShoppingCartItem_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SpecialOfferProduct_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_TransactionHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_WorkOrder_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductSubcategory_ProductCategory_ProductCategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductModelProductDescriptionCulture_ProductDescription_ProductDescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductModelIllustration_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductModelProductDescriptionCulture_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductProductPhoto_ProductPhoto_ProductPhotoID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_WorkOrder_ScrapReason_ScrapReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductVendor_UnitMeasure_UnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_WorkOrderRouting_WorkOrder_WorkOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_ProductVendor_Vendor_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PurchaseOrderDetail_PurchaseOrderHeader_PurchaseOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PurchaseOrderHeader_ShipMethod_ShipMethodID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PurchaseOrderHeader_Vendor_VendorID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_ShipMethod_ShipMethodID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_CountryRegionCurrency_Currency_CurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_PersonCreditCard_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_CurrencyRate_Currency_FromCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_CurrencyRate_Currency_ToCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_CurrencyRate_CurrencyRateID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Customer_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Customer_Store_StoreID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_Customer_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderDetail_SpecialOfferProduct_SpecialOfferIDProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeader_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeaderSalesReason_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesOrderHeaderSalesReason_SalesReason_SalesReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesPerson_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesPersonQuotaHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesTerritoryHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_Store_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SalesTerritoryHistory_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_SpecialOfferProduct_SpecialOffer_SpecialOfferID" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_tkOrderToArticle_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="tkDemoLoadToSQLDBModel.FK_tkOrderToArticle_ToTable_1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

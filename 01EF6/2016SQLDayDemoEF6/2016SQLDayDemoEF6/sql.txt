@@ -1,0 +1,173 @@
+﻿CREATE TABLE [TK].[tkArticles] (
+    [Id]              INT            IDENTITY (1, 1) NOT NULL,
+    [DtAdd]           DATETIME2 (7)  DEFAULT (getdate()) NOT NULL,
+    [Ts]              ROWVERSION     NOT NULL,
+    [Name]            NVARCHAR (50)  NULL,
+    [LongDescription] NTEXT          NULL,
+    [BlobImageUrl]    NVARCHAR (MAX) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [TK].[tkOrders] (
+    [Id]      INT            IDENTITY (1, 1) NOT NULL,
+    [DtAdd]   DATETIME2 (7)  DEFAULT (getdate()) NOT NULL,
+    [Ts]      ROWVERSION     NOT NULL,
+    [OrderNo] NVARCHAR (50)  NULL,
+    [Address] NVARCHAR (MAX) NULL,
+    CONSTRAINT [PK_tkOrders] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrders_Column]
+    ON [TK].[tkOrders]([DtAdd] ASC);
+
+
+GO
+CREATE FULLTEXT INDEX ON [TK].[tkOrders]
+    ([Address] LANGUAGE 1033)
+    KEY INDEX [PK_tkOrders]
+    ON [FullTextCatalog1];
+
+CREATE TABLE [TK].[tkOrderToArticle] (
+    [Id]         INT             IDENTITY (1, 1) NOT NULL,
+    [IdArticle]  INT             NOT NULL,
+    [IdOrder]    INT             NOT NULL,
+    [DtAdd]      DATETIME2 (7)   DEFAULT (getdate()) NOT NULL,
+    [Ts]         ROWVERSION      NOT NULL,
+    [Count]      DECIMAL (18, 2) DEFAULT ((1)) NOT NULL,
+    [TotalPrice] DECIMAL (18, 2) DEFAULT ((1)) NOT NULL,
+    [Width]      FLOAT (53)      DEFAULT ((2)) NOT NULL,
+    [Height]     FLOAT (53)      DEFAULT ((3)) NOT NULL,
+    [Notes]      NVARCHAR (50)   NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_tkOrderToArticle_ToTable] FOREIGN KEY ([IdArticle]) REFERENCES [TK].[tkArticles] ([Id]),
+    CONSTRAINT [FK_tkOrderToArticle_ToTable_1] FOREIGN KEY ([IdOrder]) REFERENCES [TK].[tkOrders] ([Id])
+);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_Count]
+    ON [TK].[tkOrderToArticle]([Count] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_TotalPrice]
+    ON [TK].[tkOrderToArticle]([TotalPrice] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_Width]
+    ON [TK].[tkOrderToArticle]([Width] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_Height]
+    ON [TK].[tkOrderToArticle]([Height] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_Notes]
+    ON [TK].[tkOrderToArticle]([Notes] ASC);
+
+
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [IX_tkOrderToArticle_Column_2]
+    ON [TK].[tkOrderToArticle]([IdArticle] ASC, [IdOrder] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_IdArticle]
+    ON [TK].[tkOrderToArticle]([IdArticle] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_tkOrderToArticle_IdOrder]
+    ON [TK].[tkOrderToArticle]([IdOrder] ASC);
+
+CREATE PROCEDURE TK.spGetArticleForOrder
+	@orderNo nvarchar(50)
+AS
+	SELECT tkArticles.* from TK.tkArticles inner join TK.tkOrderToArticle on TK.tkOrderToArticle.IdArticle = TK.tkArticles.Id inner join TK.tkOrders on tkOrders.Id = TK.tkOrderToArticle.IdOrder where TK.tkOrders.OrderNo=@orderNo order by TK.tkArticles.Name desc
+RETURN 0
+
+
+CREATE TABLE [dbo].[abc3insert] (
+    [id] INT            IDENTITY (1, 1) NOT NULL,
+    [a]  INT            NOT NULL,
+    [b]  FLOAT (53)     DEFAULT ((4)) NULL,
+    [c]  NVARCHAR (MAX) NULL,
+    [d]  DATETIME       NULL,
+    [e]  NVARCHAR (100) NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc3insert_a]
+    ON [dbo].[abc3insert]([a] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc3insert_b]
+    ON [dbo].[abc3insert]([b] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc3insert_d]
+    ON [dbo].[abc3insert]([d] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc3insert_e]
+    ON [dbo].[abc3insert]([e] ASC);
+
+CREATE TABLE [dbo].[abc2noncluster] (
+    [id] INT            IDENTITY (1, 1) NOT NULL,
+    [a]  INT            NOT NULL,
+    [b]  FLOAT (53)     DEFAULT ((4)) NULL,
+    [c]  NVARCHAR (MAX) NULL,
+    [d]  DATETIME       NULL,
+    [e]  NVARCHAR (100) NULL,
+    PRIMARY KEY NONCLUSTERED ([id] ASC)
+);
+
+CREATE TABLE [dbo].[abc1] (
+    [id] INT            IDENTITY (1, 1) NOT NULL,
+    [a]  INT            NOT NULL,
+    [b]  FLOAT (53)     NULL,
+    [c]  NVARCHAR (MAX) NULL,
+    [d]  DATETIME       NULL,
+    [e]  NVARCHAR (100) NULL
+);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc1_a]
+    ON [dbo].[abc1]([a] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc1_b]
+    ON [dbo].[abc1]([b] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc1_d]
+    ON [dbo].[abc1]([d] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_abc1_e]
+    ON [dbo].[abc1]([e] ASC);
+
+CREATE TABLE [dbo].[abc] (
+    [id] INT            IDENTITY (1, 1) NOT NULL,
+    [a]  INT            NOT NULL,
+    [b]  FLOAT (53)     DEFAULT ((4)) NULL,
+    [c]  NVARCHAR (MAX) NULL,
+    [d]  DATETIME       NULL,
+    [e]  NVARCHAR (100) NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+

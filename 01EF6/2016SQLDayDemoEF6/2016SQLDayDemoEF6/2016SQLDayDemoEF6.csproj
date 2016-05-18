@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA1FF0F4-2C3D-4FF0-880E-A67BA4189A89}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_2016SQLDayDemoEF6</RootNamespace>
+    <AssemblyName>2016SQLDayDemoEF6</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EDMX\abc.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\abc1.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\abc2noncluster.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\abc3insert.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\accessPredicate_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Address.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\AddressType.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\AWBuildVersion.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\BillOfMaterial.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\BusinessEntity.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\BusinessEntityAddress.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\BusinessEntityContact.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ContactType.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\CountryRegion.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\CountryRegionCurrency.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\CreditCard.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Culture.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Currency.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\CurrencyRate.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Customer.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\CustomerInformation.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\C__RefactorLog.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\DatabaseLog.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\database_firewall_rules.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\DemoDocTable.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Department.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\EmailAddress.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\employee.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Employee1.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\EmployeeDepartmentHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\EmployeePayHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ErrorLog.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Illustration.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\JobCandidate.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Location.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\MarketingCampaignEffectiveness.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\NewProduct.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\OrderInformation.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Password.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\patient.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Person.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\PersonCreditCard.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\PersonPhone.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\PhoneNumberType.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Product.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductCategory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductCostHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductDescription.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductDocument.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductInventory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductListPriceHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductModel.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductModelIllustration.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductModelProductDescriptionCulture.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductPhoto.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductProductPhoto.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductReview.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductSubcategory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ProductVendor.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\psptest1.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\PurchaseOrderDetail.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\PurchaseOrderHeader.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesOrderDetail.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesOrderDetail1.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesOrderHeader.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesOrderHeaderSalesReason.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesPerson.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesPersonQuotaHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesReason.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesTaxRate.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesTerritory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SalesTerritoryHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\sample_table.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ScrapReason.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Shift.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ShipMethod.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ShoppingCartItem.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SpecialOffer.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\SpecialOfferProduct.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\spGetArticleForOrder_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\StateProvince.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Store.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\t1.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Table1.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\TblSample.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkArticle.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkDemoLoadToSQLDB_EDMX.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkDemoLoadToSQLDB_EDMX.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkDemoLoadToSQLDB_EDMX.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkLog.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkOrder.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkOrderToArticle.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\tkViewAll.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\TransactionHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\TransactionHistoryArchive.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\ufnGetContactInformation_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\UnitMeasure.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\uspGetBillOfMaterials_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\uspGetEmployeeManagers_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\uspGetManagerEmployees_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\uspGetWhereUsedProductID_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\usp_Worst_TSQL_Result.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vAdditionalContactInfo.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vEmployee.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vEmployeeDepartment.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vEmployeeDepartmentHistory.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\Vendor.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vIndividualCustomer.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vJobCandidate.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vJobCandidateEducation.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vJobCandidateEmployment.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vPersonDemographic.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vProductAndDescription.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vProductModelCatalogDescription.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vProductModelInstruction.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vSalesPerson.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vSalesPersonSalesByFiscalYear.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vStateProvinceCountryRegion.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vStoreWithAddress.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vStoreWithContact.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vStoreWithDemographic.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vVendorWithAddress.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\vVendorWithContact.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\wing.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\WorkOrder.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EDMX\WorkOrderRouting.cs">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\abc.cs" />
+    <Compile Include="Model\abc1.cs" />
+    <Compile Include="Model\abc2noncluster.cs" />
+    <Compile Include="Model\abc3insert.cs" />
+    <Compile Include="Model\Address.cs" />
+    <Compile Include="Model\AddressType.cs" />
+    <Compile Include="Model\AWBuildVersion.cs" />
+    <Compile Include="Model\BillOfMaterial.cs" />
+    <Compile Include="Model\BusinessEntity.cs" />
+    <Compile Include="Model\BusinessEntityAddress.cs" />
+    <Compile Include="Model\BusinessEntityContact.cs" />
+    <Compile Include="Model\ContactType.cs" />
+    <Compile Include="Model\CountryRegion.cs" />
+    <Compile Include="Model\CountryRegionCurrency.cs" />
+    <Compile Include="Model\CreditCard.cs" />
+    <Compile Include="Model\Culture.cs" />
+    <Compile Include="Model\Currency.cs" />
+    <Compile Include="Model\CurrencyRate.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\CustomerInformation.cs" />
+    <Compile Include="Model\C__RefactorLog.cs" />
+    <Compile Include="Model\DatabaseLog.cs" />
+    <Compile Include="Model\database_firewall_rules.cs" />
+    <Compile Include="Model\DemoDocTable.cs" />
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\EmailAddress.cs" />
+    <Compile Include="Model\employee.cs" />
+    <Compile Include="Model\Employee1.cs" />
+    <Compile Include="Model\EmployeeDepartmentHistory.cs" />
+    <Compile Include="Model\EmployeePayHistory.cs" />
+    <Compile Include="Model\ErrorLog.cs" />
+    <Compile Include="Model\Illustration.cs" />
+    <Compile Include="Model\JobCandidate.cs" />
+    <Compile Include="Model\Location.cs" />
+    <Compile Include="Model\MarketingCampaignEffectiveness.cs" />
+    <Compile Include="Model\NewProduct.cs" />
+    <Compile Include="Model\OrderInformation.cs" />
+    <Compile Include="Model\Password.cs" />
+    <Compile Include="Model\patient.cs" />
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\PersonCreditCard.cs" />
+    <Compile Include="Model\PersonPhone.cs" />
+    <Compile Include="Model\PhoneNumberType.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductCategory.cs" />
+    <Compile Include="Model\ProductCostHistory.cs" />
+    <Compile Include="Model\ProductDescription.cs" />
+    <Compile Include="Model\ProductDocument.cs" />
+    <Compile Include="Model\ProductInventory.cs" />
+    <Compile Include="Model\ProductListPriceHistory.cs" />
+    <Compile Include="Model\ProductModel.cs" />
+    <Compile Include="Model\ProductModelIllustration.cs" />
+    <Compile Include="Model\ProductModelProductDescriptionCulture.cs" />
+    <Compile Include="Model\ProductPhoto.cs" />
+    <Compile Include="Model\ProductProductPhoto.cs" />
+    <Compile Include="Model\ProductReview.cs" />
+    <Compile Include="Model\ProductSubcategory.cs" />
+    <Compile Include="Model\ProductVendor.cs" />
+    <Compile Include="Model\psptest1.cs" />
+    <Compile Include="Model\PurchaseOrderDetail.cs" />
+    <Compile Include="Model\PurchaseOrderHeader.cs" />
+    <Compile Include="Model\SalesOrderDetail.cs" />
+    <Compile Include="Model\SalesOrderDetail1.cs" />
+    <Compile Include="Model\SalesOrderHeader.cs" />
+    <Compile Include="Model\SalesOrderHeaderSalesReason.cs" />
+    <Compile Include="Model\SalesPerson.cs" />
+    <Compile Include="Model\SalesPersonQuotaHistory.cs" />
+    <Compile Include="Model\SalesReason.cs" />
+    <Compile Include="Model\SalesTaxRate.cs" />
+    <Compile Include="Model\SalesTerritory.cs" />
+    <Compile Include="Model\SalesTerritoryHistory.cs" />
+    <Compile Include="Model\sample_table.cs" />
+    <Compile Include="Model\ScrapReason.cs" />
+    <Compile Include="Model\Shift.cs" />
+    <Compile Include="Model\ShipMethod.cs" />
+    <Compile Include="Model\ShoppingCartItem.cs" />
+    <Compile Include="Model\SpecialOffer.cs" />
+    <Compile Include="Model\SpecialOfferProduct.cs" />
+    <Compile Include="Model\StateProvince.cs" />
+    <Compile Include="Model\Store.cs" />
+    <Compile Include="Model\t1.cs" />
+    <Compile Include="Model\Table1.cs" />
+    <Compile Include="Model\TblSample.cs" />
+    <Compile Include="Model\tkArticle.cs" />
+    <Compile Include="Model\tkDemoLoadToSQLDB.cs" />
+    <Compile Include="Model\tkLog.cs" />
+    <Compile Include="Model\tkOrder.cs" />
+    <Compile Include="Model\tkOrderToArticle.cs" />
+    <Compile Include="Model\tkViewAll.cs" />
+    <Compile Include="Model\TransactionHistory.cs" />
+    <Compile Include="Model\TransactionHistoryArchive.cs" />
+    <Compile Include="Model\UnitMeasure.cs" />
+    <Compile Include="Model\vAdditionalContactInfo.cs" />
+    <Compile Include="Model\vEmployee.cs" />
+    <Compile Include="Model\vEmployeeDepartment.cs" />
+    <Compile Include="Model\vEmployeeDepartmentHistory.cs" />
+    <Compile Include="Model\Vendor.cs" />
+    <Compile Include="Model\vIndividualCustomer.cs" />
+    <Compile Include="Model\vJobCandidate.cs" />
+    <Compile Include="Model\vJobCandidateEducation.cs" />
+    <Compile Include="Model\vJobCandidateEmployment.cs" />
+    <Compile Include="Model\vPersonDemographic.cs" />
+    <Compile Include="Model\vProductAndDescription.cs" />
+    <Compile Include="Model\vProductModelCatalogDescription.cs" />
+    <Compile Include="Model\vProductModelInstruction.cs" />
+    <Compile Include="Model\vSalesPerson.cs" />
+    <Compile Include="Model\vSalesPersonSalesByFiscalYear.cs" />
+    <Compile Include="Model\vStateProvinceCountryRegion.cs" />
+    <Compile Include="Model\vStoreWithAddress.cs" />
+    <Compile Include="Model\vStoreWithContact.cs" />
+    <Compile Include="Model\vStoreWithDemographic.cs" />
+    <Compile Include="Model\vVendorWithAddress.cs" />
+    <Compile Include="Model\vVendorWithContact.cs" />
+    <Compile Include="Model\wing.cs" />
+    <Compile Include="Model\WorkOrder.cs" />
+    <Compile Include="Model\WorkOrderRouting.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TKCommandInterceptor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="EDMX\tkDemoLoadToSQLDB_EDMX.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>tkDemoLoadToSQLDB_EDMX.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="EDMX\tkDemoLoadToSQLDB_EDMX.edmx.diagram">
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EDMX\tkDemoLoadToSQLDB_EDMX.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.edmx</DependentUpon>
+      <LastGenOutput>tkDemoLoadToSQLDB_EDMX.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EDMX\tkDemoLoadToSQLDB_EDMX.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>tkDemoLoadToSQLDB_EDMX.edmx</DependentUpon>
+      <LastGenOutput>tkDemoLoadToSQLDB_EDMX.cs</LastGenOutput>
+    </Content>
+    <Content Include="sql.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
